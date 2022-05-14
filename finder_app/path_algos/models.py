@@ -114,8 +114,6 @@ def straight_line_distance(  src_city_name , goal_city_name ):
         
         distance = R * c * 1000
         
-        print(f"Heuristic called for {src_city_name}, {goal_city_name} and returned {distance}")
-        
         return distance
 
 class NoRouteException(Exception):
