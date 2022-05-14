@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ENCS3340 - AI - Routing</title>
+
+    <link href="/static/css/map.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  </head>
+
+<body>
+
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div id="map"></div>
+
+    <div class="floating">
+      <h2 class="title">Route Finder</h2>
+      <p>Select the source and destinations cities on the map then select the algorithim properties below to see the magic 🤩</p>
+      
+      <form action="" id="path_form" >
+
+        <p><span class="bold">Source</span><br><input name="src_city" id="src_city" class="tf" type="text" disabled></p>
+        <p><span class="bold">Destination</span><br><input name="dest_city" id="dest_city" class="tf" type="text" disabled></p>
+
+        <p class="bold">Algorithim</p>
+
+        <input type="radio" id="a_star_algo" name="algo" value="astar">
+        <label for="a_star_algo">A Star Search</label><br>
+
+        <input type="radio" id="bfs_algo" name="algo" value="bfs">
+        <label for="bfs_algo">Breadth-First Search</label><br>
+
+        <input type="radio" id="ucs_algo" name="algo" value="ucs">
+        <label for="ucs_algo">Uniform-Cost Search</label><br>
+
+        <input type="radio" id="greedy_algo" name="algo" value="greedy">
+        <label for="greedy_algo">Greedy-Best-First Search</label><br>
+
+        <p class="bold">Cost Function</p>
+
+        <input type="radio" id="driving_weight" name="weight" value="driving_cost">
+        <label for="driving_weight">Driving Distance</label><br>
+
+        <input type="radio" id="walking_weight" name="weight" value="walking_cost">
+        <label for="walking_weight">Walking Distance</label><br>
+
+        <input type="radio" id="areial_weight" name="weight" value="areial_cost">
+        <label for="areial_weight">Areial Distance</label><br>
+        
+
+        <p class="bold">Heuristic Function</p>
+
+        <input type="radio" id="aerial_heuristic" name="heuristic" value="aerial_heuristic">
+        <label for="aerial_heuristic">Aerial Distance</label><br>
+
+        <input type="radio" id="walking_heuristic" name="heuristic" value="walking_heuristic">
+        <label for="walking_heuristic">Walking Distance</label><br>
+
+
+      </form>
+
+      <button class="btn btn-dark mt-2" onclick="OpenPathPopUp()">Generate Path</button>
+
+    </div>
+
+
+    <div id="pop_up" class="pop_up" style="display: none;">
+      <div class="modal-content">
+        <h1>Submit Feedback</h1>
+        <textarea class="area" name="" id="" cols="30" rows="13"></textarea>
+        <button id="close" class="send_btn" onclick="green()">Send Report</button>
+      </div>
+    </div>
+
+    <div id="path_pop_up" class="pop_up" style="display: none;">
+        <h1>Calculated Path</h1>
+
+        <div class="path_message">Path Cost: 34987m</div>
+
+        <div class="path_point">Jerusalem</div>
+
+        <div class="path_point">Ramallah</div>
+
+        <div class="path_point">Naserah</div>
+        
+        
+        <button id="close" onclick="window.open('url TODO')" class="send_btn">Navigate</button>
+
+        <div class="close_path" id="close_path">close</div>
+    </div>
+
+    <script>
+
+      var selected_nodes = [];
+
+    </script>
+
+    <script src="/static/js/main.js"></script>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAs2scONCIdEdOkbER45m7RjmftbORjW80&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+
+    
+
+
+</body>
+
+</html>

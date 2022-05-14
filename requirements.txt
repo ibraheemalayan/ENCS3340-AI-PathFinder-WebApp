@@ -5,3 +5,5 @@ orjson
 scipy
 wtforms_json
 python-dotenv
+flask_wtf
+wtforms
