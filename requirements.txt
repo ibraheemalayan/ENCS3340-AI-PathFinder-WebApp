@@ -1,0 +1,7 @@
+networkx
+flask
+matplotlib
+orjson
+scipy
+wtforms_json
+python-dotenv

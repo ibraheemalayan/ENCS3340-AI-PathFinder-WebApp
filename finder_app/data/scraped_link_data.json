@@ -1,0 +1,6659 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            }
+        },
+        {
+            "id": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            }
+        },
+        {
+            "id": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            }
+        },
+        {
+            "id": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            }
+        },
+        {
+            "id": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            }
+        },
+        {
+            "id": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            }
+        },
+        {
+            "id": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            }
+        },
+        {
+            "id": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            }
+        },
+        {
+            "id": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            }
+        },
+        {
+            "id": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            }
+        },
+        {
+            "id": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            }
+        },
+        {
+            "id": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            }
+        },
+        {
+            "id": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            }
+        },
+        {
+            "id": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "id": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "id": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "id": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "id": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "id": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "id": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "id": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "id": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "id": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "id": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "id": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "id": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "id": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "id": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "id": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "id": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        }
+    ],
+    "links": [
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            }
+        },
+        {
+            "driving_cost": 80697,
+            "walking_cost": 74785,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            }
+        },
+        {
+            "driving_cost": 25631,
+            "walking_cost": 20402,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            }
+        },
+        {
+            "driving_cost": 48562,
+            "walking_cost": 43743,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            }
+        },
+        {
+            "driving_cost": 45353,
+            "walking_cost": 34579,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            }
+        },
+        {
+            "driving_cost": 186164,
+            "walking_cost": 193475,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            }
+        },
+        {
+            "driving_cost": 45131,
+            "walking_cost": 49009,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            }
+        },
+        {
+            "driving_cost": 80400,
+            "walking_cost": 71796,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            }
+        },
+        {
+            "driving_cost": 428653,
+            "walking_cost": 415618,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            }
+        },
+        {
+            "driving_cost": 71518,
+            "walking_cost": 58420,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "driving_cost": 213146,
+            "walking_cost": 220506,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 164672,
+            "walking_cost": 166093,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 134873,
+            "walking_cost": 127021,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 66828,
+            "walking_cost": 59956,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 72736,
+            "walking_cost": 71823,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 210711,
+            "walking_cost": 215835,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 2847,
+            "walking_cost": 1918,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 2501,
+            "walking_cost": 1906,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 109257,
+            "walking_cost": 94559,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 76076,
+            "walking_cost": 75534,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 93111,
+            "walking_cost": 83021,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 43120,
+            "walking_cost": 35435,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 71502,
+            "walking_cost": 66047,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 78781,
+            "walking_cost": 70063,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 71905,
+            "walking_cost": 69260,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 119518,
+            "walking_cost": 108232,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            }
+        },
+        {
+            "driving_cost": 80697,
+            "walking_cost": 74785,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            }
+        },
+        {
+            "driving_cost": 25631,
+            "walking_cost": 20402,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            }
+        },
+        {
+            "driving_cost": 48562,
+            "walking_cost": 43743,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            }
+        },
+        {
+            "driving_cost": 45353,
+            "walking_cost": 34579,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            }
+        },
+        {
+            "driving_cost": 186164,
+            "walking_cost": 193475,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            }
+        },
+        {
+            "driving_cost": 45131,
+            "walking_cost": 49009,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            }
+        },
+        {
+            "driving_cost": 80400,
+            "walking_cost": 71796,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            }
+        },
+        {
+            "driving_cost": 428653,
+            "walking_cost": 415618,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            }
+        },
+        {
+            "driving_cost": 71518,
+            "walking_cost": 58420,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "driving_cost": 213146,
+            "walking_cost": 220506,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 164672,
+            "walking_cost": 166093,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 134873,
+            "walking_cost": 127021,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 66828,
+            "walking_cost": 59956,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 72736,
+            "walking_cost": 71823,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 210711,
+            "walking_cost": 215835,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 43120,
+            "walking_cost": 35435,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 71502,
+            "walking_cost": 66047,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 78781,
+            "walking_cost": 70063,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 71905,
+            "walking_cost": 69260,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 119518,
+            "walking_cost": 108232,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 2847,
+            "walking_cost": 1918,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 109257,
+            "walking_cost": 94559,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 76076,
+            "walking_cost": 75534,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 93111,
+            "walking_cost": 83021,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            }
+        },
+        {
+            "driving_cost": 80697,
+            "walking_cost": 74785,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            }
+        },
+        {
+            "driving_cost": 25631,
+            "walking_cost": 20402,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            }
+        },
+        {
+            "driving_cost": 48562,
+            "walking_cost": 43743,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            }
+        },
+        {
+            "driving_cost": 45353,
+            "walking_cost": 34579,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            }
+        },
+        {
+            "driving_cost": 186164,
+            "walking_cost": 193475,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            }
+        },
+        {
+            "driving_cost": 45131,
+            "walking_cost": 49009,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            }
+        },
+        {
+            "driving_cost": 80400,
+            "walking_cost": 71796,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            }
+        },
+        {
+            "driving_cost": 428653,
+            "walking_cost": 415618,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            }
+        },
+        {
+            "driving_cost": 71518,
+            "walking_cost": 58420,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "driving_cost": 213146,
+            "walking_cost": 220506,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 164672,
+            "walking_cost": 166093,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 134873,
+            "walking_cost": 127021,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 66828,
+            "walking_cost": 59956,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 72736,
+            "walking_cost": 71823,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 210711,
+            "walking_cost": 215835,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 2847,
+            "walking_cost": 1918,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 103475,
+            "walking_cost": 94531,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 109257,
+            "walking_cost": 94559,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 76076,
+            "walking_cost": 75534,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 93111,
+            "walking_cost": 83021,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 43120,
+            "walking_cost": 35435,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 71502,
+            "walking_cost": 66047,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 78781,
+            "walking_cost": 70063,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 71905,
+            "walking_cost": 69260,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 119518,
+            "walking_cost": 108232,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            }
+        },
+        {
+            "driving_cost": 80697,
+            "walking_cost": 74785,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            }
+        },
+        {
+            "driving_cost": 25631,
+            "walking_cost": 20402,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            }
+        },
+        {
+            "driving_cost": 48562,
+            "walking_cost": 43743,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            }
+        },
+        {
+            "driving_cost": 45353,
+            "walking_cost": 34579,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            }
+        },
+        {
+            "driving_cost": 186164,
+            "walking_cost": 193475,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            }
+        },
+        {
+            "driving_cost": 45131,
+            "walking_cost": 49009,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            }
+        },
+        {
+            "driving_cost": 80400,
+            "walking_cost": 71796,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            }
+        },
+        {
+            "driving_cost": 428653,
+            "walking_cost": 415618,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            }
+        },
+        {
+            "driving_cost": 71518,
+            "walking_cost": 58420,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "driving_cost": 213146,
+            "walking_cost": 220506,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 164672,
+            "walking_cost": 166093,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 134873,
+            "walking_cost": 127021,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 66828,
+            "walking_cost": 59956,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 72736,
+            "walking_cost": 71823,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 210711,
+            "walking_cost": 215835,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 2847,
+            "walking_cost": 1918,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 76352,
+            "walking_cost": 75616,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 109257,
+            "walking_cost": 94559,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 76076,
+            "walking_cost": 75534,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 93111,
+            "walking_cost": 83021,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 43120,
+            "walking_cost": 35435,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 71502,
+            "walking_cost": 66047,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 78781,
+            "walking_cost": 70063,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 71905,
+            "walking_cost": 69260,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 119518,
+            "walking_cost": 108232,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            }
+        },
+        {
+            "driving_cost": 80697,
+            "walking_cost": 74785,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            }
+        },
+        {
+            "driving_cost": 25631,
+            "walking_cost": 20402,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            }
+        },
+        {
+            "driving_cost": 48562,
+            "walking_cost": 43743,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            }
+        },
+        {
+            "driving_cost": 45353,
+            "walking_cost": 34579,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            }
+        },
+        {
+            "driving_cost": 186164,
+            "walking_cost": 193475,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            }
+        },
+        {
+            "driving_cost": 45131,
+            "walking_cost": 49009,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            }
+        },
+        {
+            "driving_cost": 80400,
+            "walking_cost": 71796,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            }
+        },
+        {
+            "driving_cost": 428653,
+            "walking_cost": 415618,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            }
+        },
+        {
+            "driving_cost": 71518,
+            "walking_cost": 58420,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "driving_cost": 213146,
+            "walking_cost": 220506,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 164672,
+            "walking_cost": 166093,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 134873,
+            "walking_cost": 127021,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 66828,
+            "walking_cost": 59956,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 72736,
+            "walking_cost": 71823,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 210711,
+            "walking_cost": 215835,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 2847,
+            "walking_cost": 1918,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 115146,
+            "walking_cost": 83010,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 109257,
+            "walking_cost": 94559,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 76076,
+            "walking_cost": 75534,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 93111,
+            "walking_cost": 83021,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 43120,
+            "walking_cost": 35435,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 71502,
+            "walking_cost": 66047,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 78781,
+            "walking_cost": 70063,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 71905,
+            "walking_cost": 69260,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 119518,
+            "walking_cost": 108232,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            }
+        },
+        {
+            "driving_cost": 54199,
+            "walking_cost": 47649,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            }
+        },
+        {
+            "driving_cost": 55132,
+            "walking_cost": 51926,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            }
+        },
+        {
+            "driving_cost": 391197,
+            "walking_cost": 373032,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            }
+        },
+        {
+            "driving_cost": 68353,
+            "walking_cost": 73833,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "driving_cost": 47866,
+            "walking_cost": 46783,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 171331,
+            "walking_cost": 173264,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 109604,
+            "walking_cost": 107236,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 88701,
+            "walking_cost": 83037,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 44124,
+            "walking_cost": 40567,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 35137,
+            "walking_cost": 25778,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 81550,
+            "walking_cost": 76346,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 80736,
+            "walking_cost": 76388,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 63231,
+            "walking_cost": 56445,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 43702,
+            "walking_cost": 41234,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 156790,
+            "walking_cost": 144420,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 113764,
+            "walking_cost": 109062,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 79889,
+            "walking_cost": 76051,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 32754,
+            "walking_cost": 32310,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 43294,
+            "walking_cost": 38003,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 143982,
+            "walking_cost": 118953,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            }
+        },
+        {
+            "driving_cost": 54199,
+            "walking_cost": 47649,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            }
+        },
+        {
+            "driving_cost": 55132,
+            "walking_cost": 51926,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            }
+        },
+        {
+            "driving_cost": 391197,
+            "walking_cost": 373032,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            }
+        },
+        {
+            "driving_cost": 68353,
+            "walking_cost": 73833,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "driving_cost": 47866,
+            "walking_cost": 46783,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 171331,
+            "walking_cost": 173264,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 109604,
+            "walking_cost": 107236,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 88701,
+            "walking_cost": 83037,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 44124,
+            "walking_cost": 40567,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 35137,
+            "walking_cost": 25778,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 113764,
+            "walking_cost": 109062,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 79889,
+            "walking_cost": 76051,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 32754,
+            "walking_cost": 32310,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 43294,
+            "walking_cost": 38003,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 143982,
+            "walking_cost": 118953,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 81550,
+            "walking_cost": 76346,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 63231,
+            "walking_cost": 56445,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 43702,
+            "walking_cost": 41234,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 156790,
+            "walking_cost": 144420,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            }
+        },
+        {
+            "driving_cost": 54199,
+            "walking_cost": 47649,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            }
+        },
+        {
+            "driving_cost": 55132,
+            "walking_cost": 51926,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            }
+        },
+        {
+            "driving_cost": 391197,
+            "walking_cost": 373032,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            }
+        },
+        {
+            "driving_cost": 68353,
+            "walking_cost": 73833,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "driving_cost": 47866,
+            "walking_cost": 46783,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 171331,
+            "walking_cost": 173264,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 109604,
+            "walking_cost": 107236,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 88701,
+            "walking_cost": 83037,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 44124,
+            "walking_cost": 40567,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 35137,
+            "walking_cost": 25778,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 81550,
+            "walking_cost": 76346,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 57889,
+            "walking_cost": 56493,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 63231,
+            "walking_cost": 56445,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 43702,
+            "walking_cost": 41234,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 156790,
+            "walking_cost": 144420,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 113764,
+            "walking_cost": 109062,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 79889,
+            "walking_cost": 76051,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 32754,
+            "walking_cost": 32310,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 43294,
+            "walking_cost": 38003,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 143982,
+            "walking_cost": 118953,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            }
+        },
+        {
+            "driving_cost": 54199,
+            "walking_cost": 47649,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            }
+        },
+        {
+            "driving_cost": 55132,
+            "walking_cost": 51926,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            }
+        },
+        {
+            "driving_cost": 391197,
+            "walking_cost": 373032,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            }
+        },
+        {
+            "driving_cost": 68353,
+            "walking_cost": 73833,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "driving_cost": 47866,
+            "walking_cost": 46783,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 171331,
+            "walking_cost": 173264,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 109604,
+            "walking_cost": 107236,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 88701,
+            "walking_cost": 83037,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 44124,
+            "walking_cost": 40567,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 35137,
+            "walking_cost": 25778,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 81550,
+            "walking_cost": 76346,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 43865,
+            "walking_cost": 41237,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 63231,
+            "walking_cost": 56445,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 43702,
+            "walking_cost": 41234,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 156790,
+            "walking_cost": 144420,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 113764,
+            "walking_cost": 109062,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 79889,
+            "walking_cost": 76051,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 32754,
+            "walking_cost": 32310,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 43294,
+            "walking_cost": 38003,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 143982,
+            "walking_cost": 118953,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            }
+        },
+        {
+            "driving_cost": 54199,
+            "walking_cost": 47649,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            }
+        },
+        {
+            "driving_cost": 55132,
+            "walking_cost": 51926,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            }
+        },
+        {
+            "driving_cost": 391197,
+            "walking_cost": 373032,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            }
+        },
+        {
+            "driving_cost": 68353,
+            "walking_cost": 73833,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "driving_cost": 47866,
+            "walking_cost": 46783,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 171331,
+            "walking_cost": 173264,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 109604,
+            "walking_cost": 107236,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 88701,
+            "walking_cost": 83037,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 44124,
+            "walking_cost": 40567,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 35137,
+            "walking_cost": 25778,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 81550,
+            "walking_cost": 76346,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 154710,
+            "walking_cost": 144097,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 63231,
+            "walking_cost": 56445,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 43702,
+            "walking_cost": 41234,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 156790,
+            "walking_cost": 144420,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 113764,
+            "walking_cost": 109062,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 79889,
+            "walking_cost": 76051,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 32754,
+            "walking_cost": 32310,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 43294,
+            "walking_cost": 38003,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 143982,
+            "walking_cost": 118953,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 133868,
+            "walking_cost": 128822,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 67974,
+            "walking_cost": 60603,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 454714,
+            "walking_cost": 406482,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 109349,
+            "walking_cost": 113529,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 32149,
+            "walking_cost": 32142,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 47541,
+            "walking_cost": 49472,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 45170,
+            "walking_cost": 49429,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 396037,
+            "walking_cost": 354138,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 105016,
+            "walking_cost": 94352,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 182672,
+            "walking_cost": 184542,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 79754,
+            "walking_cost": 74498,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 123822,
+            "walking_cost": 126806,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 365561,
+            "walking_cost": 362458,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 108519,
+            "walking_cost": 110965,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 169864,
+            "walking_cost": 165050,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 133868,
+            "walking_cost": 128822,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 67974,
+            "walking_cost": 60603,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 454714,
+            "walking_cost": 406482,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 109349,
+            "walking_cost": 113529,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 32149,
+            "walking_cost": 32142,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 79754,
+            "walking_cost": 74498,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 123822,
+            "walking_cost": 126806,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 365561,
+            "walking_cost": 362458,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 108519,
+            "walking_cost": 110965,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 169864,
+            "walking_cost": 165050,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 47541,
+            "walking_cost": 49472,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 396037,
+            "walking_cost": 354138,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 105016,
+            "walking_cost": 94352,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 182672,
+            "walking_cost": 184542,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 133868,
+            "walking_cost": 128822,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 67974,
+            "walking_cost": 60603,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 454714,
+            "walking_cost": 406482,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 109349,
+            "walking_cost": 113529,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 32149,
+            "walking_cost": 32142,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 47541,
+            "walking_cost": 49472,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 390283,
+            "walking_cost": 354224,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 396037,
+            "walking_cost": 354138,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 105016,
+            "walking_cost": 94352,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 182672,
+            "walking_cost": 184542,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 79754,
+            "walking_cost": 74498,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 123822,
+            "walking_cost": 126806,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 365561,
+            "walking_cost": 362458,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 108519,
+            "walking_cost": 110965,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 169864,
+            "walking_cost": 165050,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 133868,
+            "walking_cost": 128822,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 67974,
+            "walking_cost": 60603,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 454714,
+            "walking_cost": 406482,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 109349,
+            "walking_cost": 113529,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 32149,
+            "walking_cost": 32142,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 47541,
+            "walking_cost": 49472,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 104083,
+            "walking_cost": 94379,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 396037,
+            "walking_cost": 354138,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 105016,
+            "walking_cost": 94352,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 182672,
+            "walking_cost": 184542,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 79754,
+            "walking_cost": 74498,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 123822,
+            "walking_cost": 126806,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 365561,
+            "walking_cost": 362458,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 108519,
+            "walking_cost": 110965,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 169864,
+            "walking_cost": 165050,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            }
+        },
+        {
+            "driving_cost": 133868,
+            "walking_cost": 128822,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 67974,
+            "walking_cost": 60603,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 454714,
+            "walking_cost": 406482,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 109349,
+            "walking_cost": 113529,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 32149,
+            "walking_cost": 32142,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 47541,
+            "walking_cost": 49472,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 181692,
+            "walking_cost": 184394,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 396037,
+            "walking_cost": 354138,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 105016,
+            "walking_cost": 94352,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 182672,
+            "walking_cost": 184542,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 79754,
+            "walking_cost": 74498,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 123822,
+            "walking_cost": 126806,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 365561,
+            "walking_cost": 362458,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 108519,
+            "walking_cost": 110965,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 169864,
+            "walking_cost": 165050,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 164917,
+            "walking_cost": 166651,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 164711,
+            "walking_cost": 166513,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 134796,
+            "walking_cost": 94180,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 79997,
+            "walking_cost": 71349,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 177928,
+            "walking_cost": 170115,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 197130,
+            "walking_cost": 175041,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 179610,
+            "walking_cost": 182177,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 104320,
+            "walking_cost": 92679,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 26195,
+            "walking_cost": 11929,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 165120,
+            "walking_cost": 144647,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 197130,
+            "walking_cost": 175041,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 179610,
+            "walking_cost": 182177,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 104320,
+            "walking_cost": 92679,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 26195,
+            "walking_cost": 11929,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 165120,
+            "walking_cost": 144647,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 164917,
+            "walking_cost": 166651,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 134796,
+            "walking_cost": 94180,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 79997,
+            "walking_cost": 71349,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 177928,
+            "walking_cost": 170115,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            },
+            "target": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 164917,
+            "walking_cost": 166651,
+            "source": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 129505,
+            "walking_cost": 94174,
+            "source": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 134796,
+            "walking_cost": 94180,
+            "source": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 79997,
+            "walking_cost": 71349,
+            "source": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 177928,
+            "walking_cost": 170115,
+            "source": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 197130,
+            "walking_cost": 175041,
+            "source": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 179610,
+            "walking_cost": 182177,
+            "source": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 104320,
+            "walking_cost": 92679,
+            "source": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 26195,
+            "walking_cost": 11929,
+            "source": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 165120,
+            "walking_cost": 144647,
+            "source": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            },
+            "target": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 164917,
+            "walking_cost": 166651,
+            "source": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 78958,
+            "walking_cost": 71317,
+            "source": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 134796,
+            "walking_cost": 94180,
+            "source": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 79997,
+            "walking_cost": 71349,
+            "source": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 177928,
+            "walking_cost": 170115,
+            "source": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 197130,
+            "walking_cost": 175041,
+            "source": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 179610,
+            "walking_cost": 182177,
+            "source": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 104320,
+            "walking_cost": 92679,
+            "source": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 26195,
+            "walking_cost": 11929,
+            "source": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 165120,
+            "walking_cost": 144647,
+            "source": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            },
+            "target": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            }
+        },
+        {
+            "driving_cost": 164917,
+            "walking_cost": 166651,
+            "source": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 179257,
+            "walking_cost": 169783,
+            "source": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 134796,
+            "walking_cost": 94180,
+            "source": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 79997,
+            "walking_cost": 71349,
+            "source": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 177928,
+            "walking_cost": 170115,
+            "source": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 197130,
+            "walking_cost": 175041,
+            "source": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 179610,
+            "walking_cost": 182177,
+            "source": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 104320,
+            "walking_cost": 92679,
+            "source": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 26195,
+            "walking_cost": 11929,
+            "source": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 165120,
+            "walking_cost": 144647,
+            "source": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 34599,
+            "walking_cost": 33997,
+            "source": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 34911,
+            "walking_cost": 34154,
+            "source": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 33397,
+            "walking_cost": 32517,
+            "source": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 78128,
+            "walking_cost": 67451,
+            "source": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 29490,
+            "walking_cost": 26140,
+            "source": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 34599,
+            "walking_cost": 33997,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 33397,
+            "walking_cost": 32517,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 78128,
+            "walking_cost": 67451,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 29490,
+            "walking_cost": 26140,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 34599,
+            "walking_cost": 33997,
+            "source": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 38984,
+            "walking_cost": 32517,
+            "source": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 33397,
+            "walking_cost": 32517,
+            "source": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 78128,
+            "walking_cost": 67451,
+            "source": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 29490,
+            "walking_cost": 26140,
+            "source": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 34599,
+            "walking_cost": 33997,
+            "source": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 76679,
+            "walking_cost": 67465,
+            "source": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 33397,
+            "walking_cost": 32517,
+            "source": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 78128,
+            "walking_cost": 67451,
+            "source": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 29490,
+            "walking_cost": 26140,
+            "source": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 34599,
+            "walking_cost": 33997,
+            "source": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 29491,
+            "walking_cost": 26249,
+            "source": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 33397,
+            "walking_cost": 32517,
+            "source": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 78128,
+            "walking_cost": 67451,
+            "source": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 29490,
+            "walking_cost": 26140,
+            "source": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            },
+            "target": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.7,
+                "lng": 35.11667,
+                "name": "Battir"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        }
+    ]
+}
