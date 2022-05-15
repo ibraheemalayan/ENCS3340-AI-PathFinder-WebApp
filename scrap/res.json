@@ -152,6 +152,13 @@
         },
         {
             "id": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "id": {
                 "lat": 32.22111,
                 "lng": 35.25444,
                 "name": "Nablus"
@@ -5792,6 +5799,20 @@
                 "lat": 31.91001,
                 "lng": 35.21645,
                 "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
             }
         },
         {

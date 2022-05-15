@@ -152,6 +152,13 @@
         },
         {
             "id": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "id": {
                 "lat": 32.22111,
                 "lng": 35.25444,
                 "name": "Nablus"
@@ -223,8 +230,8 @@
             }
         },
         {
-            "driving_cost": 68378,
-            "walking_cost": 66010,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -237,8 +244,8 @@
             }
         },
         {
-            "driving_cost": 152822,
-            "walking_cost": 142317,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -251,8 +258,8 @@
             }
         },
         {
-            "driving_cost": 64954,
-            "walking_cost": 65880,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -265,8 +272,8 @@
             }
         },
         {
-            "driving_cost": 106631,
-            "walking_cost": 91931,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -293,8 +300,8 @@
             }
         },
         {
-            "driving_cost": 75351,
-            "walking_cost": 70255,
+            "driving_cost": 25631,
+            "walking_cost": 20402,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -307,8 +314,8 @@
             }
         },
         {
-            "driving_cost": 114916,
-            "walking_cost": 99749,
+            "driving_cost": 48562,
+            "walking_cost": 43743,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -321,8 +328,8 @@
             }
         },
         {
-            "driving_cost": 47176,
-            "walking_cost": 44611,
+            "driving_cost": 45353,
+            "walking_cost": 34579,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -335,8 +342,8 @@
             }
         },
         {
-            "driving_cost": 146195,
-            "walking_cost": 134885,
+            "driving_cost": 186164,
+            "walking_cost": 193475,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -363,8 +370,8 @@
             }
         },
         {
-            "driving_cost": 120856,
-            "walking_cost": 118730,
+            "driving_cost": 80400,
+            "walking_cost": 71796,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -377,8 +384,8 @@
             }
         },
         {
-            "driving_cost": 317709,
-            "walking_cost": 302266,
+            "driving_cost": 428653,
+            "walking_cost": 415618,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -391,8 +398,8 @@
             }
         },
         {
-            "driving_cost": 92685,
-            "walking_cost": 79908,
+            "driving_cost": 71518,
+            "walking_cost": 58420,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -405,8 +412,8 @@
             }
         },
         {
-            "driving_cost": 173177,
-            "walking_cost": 174670,
+            "driving_cost": 213146,
+            "walking_cost": 220506,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -420,7 +427,7 @@
         },
         {
             "driving_cost": 164672,
-            "walking_cost": 165971,
+            "walking_cost": 166093,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -433,8 +440,8 @@
             }
         },
         {
-            "driving_cost": 175329,
-            "walking_cost": 166586,
+            "driving_cost": 134873,
+            "walking_cost": 127021,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -447,8 +454,8 @@
             }
         },
         {
-            "driving_cost": 178852,
-            "walking_cost": 149454,
+            "driving_cost": 66828,
+            "walking_cost": 59956,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -461,8 +468,8 @@
             }
         },
         {
-            "driving_cost": 82903,
-            "walking_cost": 79091,
+            "driving_cost": 72736,
+            "walking_cost": 71823,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -475,8 +482,8 @@
             }
         },
         {
-            "driving_cost": 170743,
-            "walking_cost": 160571,
+            "driving_cost": 210711,
+            "walking_cost": 215835,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -503,8 +510,22 @@
             }
         },
         {
-            "driving_cost": 120176,
-            "walking_cost": 68461,
+            "driving_cost": 2501,
+            "walking_cost": 1906,
+            "source": {
+                "lat": 31.7833,
+                "lng": 35.2167,
+                "name": "Jerusalem"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 109257,
+            "walking_cost": 94559,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -517,8 +538,8 @@
             }
         },
         {
-            "driving_cost": 16720,
-            "walking_cost": 15665,
+            "driving_cost": 76076,
+            "walking_cost": 75534,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -531,8 +552,8 @@
             }
         },
         {
-            "driving_cost": 13528,
-            "walking_cost": 9849,
+            "driving_cost": 93111,
+            "walking_cost": 83021,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -559,8 +580,8 @@
             }
         },
         {
-            "driving_cost": 20872,
-            "walking_cost": 19996,
+            "driving_cost": 71502,
+            "walking_cost": 66047,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -573,8 +594,8 @@
             }
         },
         {
-            "driving_cost": 89700,
-            "walking_cost": 85889,
+            "driving_cost": 78781,
+            "walking_cost": 70063,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -587,8 +608,8 @@
             }
         },
         {
-            "driving_cost": 82073,
-            "walking_cost": 75348,
+            "driving_cost": 71905,
+            "walking_cost": 69260,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -601,8 +622,8 @@
             }
         },
         {
-            "driving_cost": 17699,
-            "walking_cost": 16928,
+            "driving_cost": 119518,
+            "walking_cost": 108232,
             "source": {
                 "lat": 31.7833,
                 "lng": 35.2167,
@@ -629,8 +650,8 @@
             }
         },
         {
-            "driving_cost": 93789,
-            "walking_cost": 91634,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -643,8 +664,8 @@
             }
         },
         {
-            "driving_cost": 40880,
-            "walking_cost": 40269,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -657,8 +678,8 @@
             }
         },
         {
-            "driving_cost": 107750,
-            "walking_cost": 101712,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -671,8 +692,8 @@
             }
         },
         {
-            "driving_cost": 57394,
-            "walking_cost": 58448,
+            "driving_cost": 80697,
+            "walking_cost": 74785,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -699,8 +720,8 @@
             }
         },
         {
-            "driving_cost": 51043,
-            "walking_cost": 49065,
+            "driving_cost": 48562,
+            "walking_cost": 43743,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -713,8 +734,8 @@
             }
         },
         {
-            "driving_cost": 23489,
-            "walking_cost": 23376,
+            "driving_cost": 45353,
+            "walking_cost": 34579,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -727,8 +748,8 @@
             }
         },
         {
-            "driving_cost": 105739,
-            "walking_cost": 99126,
+            "driving_cost": 186164,
+            "walking_cost": 193475,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -741,8 +762,8 @@
             }
         },
         {
-            "driving_cost": 21768,
-            "walking_cost": 20673,
+            "driving_cost": 45131,
+            "walking_cost": 49009,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -769,8 +790,8 @@
             }
         },
         {
-            "driving_cost": 342957,
-            "walking_cost": 329995,
+            "driving_cost": 428653,
+            "walking_cost": 415618,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -783,8 +804,8 @@
             }
         },
         {
-            "driving_cost": 93804,
-            "walking_cost": 87798,
+            "driving_cost": 71518,
+            "walking_cost": 58420,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -797,8 +818,8 @@
             }
         },
         {
-            "driving_cost": 123138,
-            "walking_cost": 124807,
+            "driving_cost": 213146,
+            "walking_cost": 220506,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -811,8 +832,8 @@
             }
         },
         {
-            "driving_cost": 114633,
-            "walking_cost": 116107,
+            "driving_cost": 164672,
+            "walking_cost": 166093,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -839,8 +860,8 @@
             }
         },
         {
-            "driving_cost": 138396,
-            "walking_cost": 127227,
+            "driving_cost": 66828,
+            "walking_cost": 59956,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -853,8 +874,8 @@
             }
         },
         {
-            "driving_cost": 42447,
-            "walking_cost": 34497,
+            "driving_cost": 72736,
+            "walking_cost": 71823,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -867,8 +888,8 @@
             }
         },
         {
-            "driving_cost": 130287,
-            "walking_cost": 121400,
+            "driving_cost": 210711,
+            "walking_cost": 215835,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -881,64 +902,8 @@
             }
         },
         {
-            "driving_cost": 67509,
-            "walking_cost": 66465,
-            "source": {
-                "lat": 32.08,
-                "lng": 34.78,
-                "name": "Yafa"
-            },
-            "target": {
-                "lat": 31.78336,
-                "lng": 35.23388,
-                "name": "East Jerusalem"
-            }
-        },
-        {
-            "driving_cost": 79720,
-            "walking_cost": 64671,
-            "source": {
-                "lat": 32.08,
-                "lng": 34.78,
-                "name": "Yafa"
-            },
-            "target": {
-                "lat": 32.22111,
-                "lng": 35.25444,
-                "name": "Nablus"
-            }
-        },
-        {
-            "driving_cost": 62761,
-            "walking_cost": 62625,
-            "source": {
-                "lat": 32.08,
-                "lng": 34.78,
-                "name": "Yafa"
-            },
-            "target": {
-                "lat": 31.89964,
-                "lng": 35.20422,
-                "name": "Ramallah"
-            }
-        },
-        {
-            "driving_cost": 76598,
-            "walking_cost": 74282,
-            "source": {
-                "lat": 32.08,
-                "lng": 34.78,
-                "name": "Yafa"
-            },
-            "target": {
-                "lat": 31.70487,
-                "lng": 35.20376,
-                "name": "Bethlehem"
-            }
-        },
-        {
-            "driving_cost": 99722,
-            "walking_cost": 91491,
+            "driving_cost": 43120,
+            "walking_cost": 35435,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -965,8 +930,8 @@
             }
         },
         {
-            "driving_cost": 49244,
-            "walking_cost": 41294,
+            "driving_cost": 78781,
+            "walking_cost": 70063,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -979,8 +944,8 @@
             }
         },
         {
-            "driving_cost": 42380,
-            "walking_cost": 31684,
+            "driving_cost": 71905,
+            "walking_cost": 69260,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -993,8 +958,8 @@
             }
         },
         {
-            "driving_cost": 63741,
-            "walking_cost": 61748,
+            "driving_cost": 119518,
+            "walking_cost": 108232,
             "source": {
                 "lat": 32.08,
                 "lng": 34.78,
@@ -1004,6 +969,62 @@
                 "lat": 31.91001,
                 "lng": 35.21645,
                 "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 2847,
+            "walking_cost": 1918,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 109257,
+            "walking_cost": 94559,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 76076,
+            "walking_cost": 75534,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 93111,
+            "walking_cost": 83021,
+            "source": {
+                "lat": 32.08,
+                "lng": 34.78,
+                "name": "Yafa"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
             }
         },
         {
@@ -1021,8 +1042,8 @@
             }
         },
         {
-            "driving_cost": 131249,
-            "walking_cost": 131646,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1035,8 +1056,8 @@
             }
         },
         {
-            "driving_cost": 193446,
-            "walking_cost": 187336,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1049,8 +1070,8 @@
             }
         },
         {
-            "driving_cost": 147763,
-            "walking_cost": 148696,
+            "driving_cost": 80697,
+            "walking_cost": 74785,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1063,8 +1084,8 @@
             }
         },
         {
-            "driving_cost": 87435,
-            "walking_cost": 74304,
+            "driving_cost": 25631,
+            "walking_cost": 20402,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1091,8 +1112,8 @@
             }
         },
         {
-            "driving_cost": 113925,
-            "walking_cost": 100524,
+            "driving_cost": 45353,
+            "walking_cost": 34579,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1105,8 +1126,8 @@
             }
         },
         {
-            "driving_cost": 43497,
-            "walking_cost": 38605,
+            "driving_cost": 186164,
+            "walking_cost": 193475,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1119,8 +1140,8 @@
             }
         },
         {
-            "driving_cost": 112137,
-            "walking_cost": 104323,
+            "driving_cost": 45131,
+            "walking_cost": 49009,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1133,8 +1154,8 @@
             }
         },
         {
-            "driving_cost": 46566,
-            "walking_cost": 46574,
+            "driving_cost": 80400,
+            "walking_cost": 71796,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1161,8 +1182,8 @@
             }
         },
         {
-            "driving_cost": 179500,
-            "walking_cost": 173421,
+            "driving_cost": 71518,
+            "walking_cost": 58420,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1175,8 +1196,8 @@
             }
         },
         {
-            "driving_cost": 34724,
-            "walking_cost": 33159,
+            "driving_cost": 213146,
+            "walking_cost": 220506,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1189,8 +1210,8 @@
             }
         },
         {
-            "driving_cost": 26219,
-            "walking_cost": 24459,
+            "driving_cost": 164672,
+            "walking_cost": 166093,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1203,8 +1224,8 @@
             }
         },
         {
-            "driving_cost": 45978,
-            "walking_cost": 42849,
+            "driving_cost": 134873,
+            "walking_cost": 127021,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1218,7 +1239,7 @@
         },
         {
             "driving_cost": 66828,
-            "walking_cost": 59955,
+            "walking_cost": 59956,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1231,8 +1252,8 @@
             }
         },
         {
-            "driving_cost": 76452,
-            "walking_cost": 71017,
+            "driving_cost": 72736,
+            "walking_cost": 71823,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1245,8 +1266,8 @@
             }
         },
         {
-            "driving_cost": 43413,
-            "walking_cost": 37246,
+            "driving_cost": 210711,
+            "walking_cost": 215835,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1259,8 +1280,8 @@
             }
         },
         {
-            "driving_cost": 153205,
-            "walking_cost": 142710,
+            "driving_cost": 2847,
+            "walking_cost": 1918,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1270,6 +1291,20 @@
                 "lat": 31.78336,
                 "lng": 35.23388,
                 "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 103475,
+            "walking_cost": 94531,
+            "source": {
+                "lat": 32.8,
+                "lng": 34.9833,
+                "name": "Haifa"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
             }
         },
         {
@@ -1287,8 +1322,8 @@
             }
         },
         {
-            "driving_cost": 148506,
-            "walking_cost": 134824,
+            "driving_cost": 76076,
+            "walking_cost": 75534,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1301,8 +1336,8 @@
             }
         },
         {
-            "driving_cost": 162294,
-            "walking_cost": 151898,
+            "driving_cost": 93111,
+            "walking_cost": 83021,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1315,8 +1350,8 @@
             }
         },
         {
-            "driving_cost": 185418,
-            "walking_cost": 167702,
+            "driving_cost": 43120,
+            "walking_cost": 35435,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1329,8 +1364,8 @@
             }
         },
         {
-            "driving_cost": 157199,
-            "walking_cost": 148029,
+            "driving_cost": 71502,
+            "walking_cost": 66047,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1357,8 +1392,8 @@
             }
         },
         {
-            "driving_cost": 94708,
-            "walking_cost": 80690,
+            "driving_cost": 71905,
+            "walking_cost": 69260,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1371,8 +1406,8 @@
             }
         },
         {
-            "driving_cost": 149486,
-            "walking_cost": 132870,
+            "driving_cost": 119518,
+            "walking_cost": 108232,
             "source": {
                 "lat": 32.8,
                 "lng": 34.9833,
@@ -1399,8 +1434,8 @@
             }
         },
         {
-            "driving_cost": 85464,
-            "walking_cost": 72337,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1413,8 +1448,8 @@
             }
         },
         {
-            "driving_cost": 21894,
-            "walking_cost": 21576,
+            "driving_cost": 80697,
+            "walking_cost": 74785,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1427,8 +1462,8 @@
             }
         },
         {
-            "driving_cost": 55835,
-            "walking_cost": 59787,
+            "driving_cost": 25631,
+            "walking_cost": 20402,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1441,8 +1476,8 @@
             }
         },
         {
-            "driving_cost": 87736,
-            "walking_cost": 89226,
+            "driving_cost": 48562,
+            "walking_cost": 43743,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1469,8 +1504,8 @@
             }
         },
         {
-            "driving_cost": 136028,
-            "walking_cost": 137936,
+            "driving_cost": 186164,
+            "walking_cost": 193475,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1483,8 +1518,8 @@
             }
         },
         {
-            "driving_cost": 37373,
-            "walking_cost": 30787,
+            "driving_cost": 45131,
+            "walking_cost": 49009,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1497,8 +1532,8 @@
             }
         },
         {
-            "driving_cost": 110689,
-            "walking_cost": 110606,
+            "driving_cost": 80400,
+            "walking_cost": 71796,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1511,8 +1546,8 @@
             }
         },
         {
-            "driving_cost": 320671,
-            "walking_cost": 300619,
+            "driving_cost": 428653,
+            "walking_cost": 415618,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1526,7 +1561,7 @@
         },
         {
             "driving_cost": 71518,
-            "walking_cost": 58422,
+            "walking_cost": 58420,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1539,8 +1574,8 @@
             }
         },
         {
-            "driving_cost": 163010,
-            "walking_cost": 164968,
+            "driving_cost": 213146,
+            "walking_cost": 220506,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1553,8 +1588,8 @@
             }
         },
         {
-            "driving_cost": 154505,
-            "walking_cost": 156268,
+            "driving_cost": 164672,
+            "walking_cost": 166093,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1567,8 +1602,8 @@
             }
         },
         {
-            "driving_cost": 165161,
-            "walking_cost": 165916,
+            "driving_cost": 134873,
+            "walking_cost": 127021,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1581,8 +1616,8 @@
             }
         },
         {
-            "driving_cost": 168685,
-            "walking_cost": 166037,
+            "driving_cost": 66828,
+            "walking_cost": 59956,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1596,7 +1631,7 @@
         },
         {
             "driving_cost": 72736,
-            "walking_cost": 71701,
+            "walking_cost": 71823,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1609,8 +1644,8 @@
             }
         },
         {
-            "driving_cost": 160576,
-            "walking_cost": 160296,
+            "driving_cost": 210711,
+            "walking_cost": 215835,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1623,8 +1658,8 @@
             }
         },
         {
-            "driving_cost": 65755,
-            "walking_cost": 67419,
+            "driving_cost": 2847,
+            "walking_cost": 1918,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1637,8 +1672,22 @@
             }
         },
         {
-            "driving_cost": 110009,
-            "walking_cost": 101876,
+            "driving_cost": 76352,
+            "walking_cost": 75616,
+            "source": {
+                "lat": 31.7978,
+                "lng": 34.6503,
+                "name": "Ashdod"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 109257,
+            "walking_cost": 94559,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1665,8 +1714,8 @@
             }
         },
         {
-            "driving_cost": 74844,
-            "walking_cost": 67714,
+            "driving_cost": 93111,
+            "walking_cost": 83021,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1679,8 +1728,8 @@
             }
         },
         {
-            "driving_cost": 97968,
-            "walking_cost": 100135,
+            "driving_cost": 43120,
+            "walking_cost": 35435,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1693,8 +1742,8 @@
             }
         },
         {
-            "driving_cost": 63030,
-            "walking_cost": 59479,
+            "driving_cost": 71502,
+            "walking_cost": 66047,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1707,8 +1756,8 @@
             }
         },
         {
-            "driving_cost": 79532,
-            "walking_cost": 78498,
+            "driving_cost": 78781,
+            "walking_cost": 70063,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1722,7 +1771,7 @@
         },
         {
             "driving_cost": 71905,
-            "walking_cost": 68888,
+            "walking_cost": 69260,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1735,8 +1784,8 @@
             }
         },
         {
-            "driving_cost": 77055,
-            "walking_cost": 76798,
+            "driving_cost": 119518,
+            "walking_cost": 108232,
             "source": {
                 "lat": 31.7978,
                 "lng": 34.6503,
@@ -1763,8 +1812,8 @@
             }
         },
         {
-            "driving_cost": 63691,
-            "walking_cost": 60402,
+            "driving_cost": 80697,
+            "walking_cost": 74785,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -1777,8 +1826,8 @@
             }
         },
         {
-            "driving_cost": 115319,
-            "walking_cost": 115326,
+            "driving_cost": 25631,
+            "walking_cost": 20402,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -1791,8 +1840,8 @@
             }
         },
         {
-            "driving_cost": 154885,
-            "walking_cost": 144764,
+            "driving_cost": 48562,
+            "walking_cost": 43743,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -1805,8 +1854,8 @@
             }
         },
         {
-            "driving_cost": 87145,
-            "walking_cost": 87733,
+            "driving_cost": 45353,
+            "walking_cost": 34579,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -1833,8 +1882,8 @@
             }
         },
         {
-            "driving_cost": 80234,
-            "walking_cost": 83941,
+            "driving_cost": 45131,
+            "walking_cost": 49009,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -1847,8 +1896,8 @@
             }
         },
         {
-            "driving_cost": 160825,
-            "walking_cost": 166145,
+            "driving_cost": 80400,
+            "walking_cost": 71796,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -1861,8 +1910,8 @@
             }
         },
         {
-            "driving_cost": 238607,
-            "walking_cost": 228308,
+            "driving_cost": 428653,
+            "walking_cost": 415618,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -1875,8 +1924,8 @@
             }
         },
         {
-            "driving_cost": 18843,
-            "walking_cost": 18794,
+            "driving_cost": 71518,
+            "walking_cost": 58420,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -1903,8 +1952,8 @@
             }
         },
         {
-            "driving_cost": 204640,
-            "walking_cost": 211807,
+            "driving_cost": 164672,
+            "walking_cost": 166093,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -1917,8 +1966,8 @@
             }
         },
         {
-            "driving_cost": 215297,
-            "walking_cost": 221455,
+            "driving_cost": 134873,
+            "walking_cost": 127021,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -1931,8 +1980,8 @@
             }
         },
         {
-            "driving_cost": 218821,
-            "walking_cost": 221576,
+            "driving_cost": 66828,
+            "walking_cost": 59956,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -1945,8 +1994,8 @@
             }
         },
         {
-            "driving_cost": 122872,
-            "walking_cost": 127239,
+            "driving_cost": 72736,
+            "walking_cost": 71823,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -1973,8 +2022,8 @@
             }
         },
         {
-            "driving_cost": 106872,
-            "walking_cost": 92392,
+            "driving_cost": 2847,
+            "walking_cost": 1918,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -1987,8 +2036,22 @@
             }
         },
         {
-            "driving_cost": 160144,
-            "walking_cost": 157414,
+            "driving_cost": 115146,
+            "walking_cost": 83010,
+            "source": {
+                "lat": 31.2589,
+                "lng": 34.7978,
+                "name": "Beersheba"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 109257,
+            "walking_cost": 94559,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -2001,8 +2064,8 @@
             }
         },
         {
-            "driving_cost": 118539,
-            "walking_cost": 106969,
+            "driving_cost": 76076,
+            "walking_cost": 75534,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -2029,8 +2092,8 @@
             }
         },
         {
-            "driving_cost": 139085,
-            "walking_cost": 126392,
+            "driving_cost": 43120,
+            "walking_cost": 35435,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -2043,8 +2106,8 @@
             }
         },
         {
-            "driving_cost": 81550,
-            "walking_cost": 78682,
+            "driving_cost": 71502,
+            "walking_cost": 66047,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -2057,8 +2120,8 @@
             }
         },
         {
-            "driving_cost": 129668,
-            "walking_cost": 134037,
+            "driving_cost": 78781,
+            "walking_cost": 70063,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -2071,8 +2134,8 @@
             }
         },
         {
-            "driving_cost": 122041,
-            "walking_cost": 124426,
+            "driving_cost": 71905,
+            "walking_cost": 69260,
             "source": {
                 "lat": 31.2589,
                 "lng": 34.7978,
@@ -2113,8 +2176,8 @@
             }
         },
         {
-            "driving_cost": 72662,
-            "walking_cost": 76783,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2127,8 +2190,8 @@
             }
         },
         {
-            "driving_cost": 104563,
-            "walking_cost": 106222,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2141,8 +2204,8 @@
             }
         },
         {
-            "driving_cost": 57766,
-            "walking_cost": 51441,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2155,8 +2218,8 @@
             }
         },
         {
-            "driving_cost": 152855,
-            "walking_cost": 154932,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2183,8 +2246,8 @@
             }
         },
         {
-            "driving_cost": 127516,
-            "walking_cost": 127602,
+            "driving_cost": 55132,
+            "walking_cost": 51926,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2197,8 +2260,8 @@
             }
         },
         {
-            "driving_cost": 299571,
-            "walking_cost": 286818,
+            "driving_cost": 391197,
+            "walking_cost": 373032,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2211,8 +2274,8 @@
             }
         },
         {
-            "driving_cost": 50418,
-            "walking_cost": 45426,
+            "driving_cost": 68353,
+            "walking_cost": 73833,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2225,8 +2288,8 @@
             }
         },
         {
-            "driving_cost": 179836,
-            "walking_cost": 181964,
+            "driving_cost": 47866,
+            "walking_cost": 46783,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2253,8 +2316,8 @@
             }
         },
         {
-            "driving_cost": 181988,
-            "walking_cost": 182912,
+            "driving_cost": 109604,
+            "walking_cost": 107236,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2267,8 +2330,8 @@
             }
         },
         {
-            "driving_cost": 185512,
-            "walking_cost": 183033,
+            "driving_cost": 88701,
+            "walking_cost": 83037,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2281,8 +2344,8 @@
             }
         },
         {
-            "driving_cost": 89562,
-            "walking_cost": 88697,
+            "driving_cost": 44124,
+            "walking_cost": 40567,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2295,8 +2358,8 @@
             }
         },
         {
-            "driving_cost": 177402,
-            "walking_cost": 177292,
+            "driving_cost": 35137,
+            "walking_cost": 25778,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2323,8 +2386,22 @@
             }
         },
         {
-            "driving_cost": 126835,
-            "walking_cost": 118872,
+            "driving_cost": 80736,
+            "walking_cost": 76388,
+            "source": {
+                "lat": 31.6658,
+                "lng": 34.5664,
+                "name": "Ashqelon"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 63231,
+            "walking_cost": 56445,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2337,8 +2414,8 @@
             }
         },
         {
-            "driving_cost": 91871,
-            "walking_cost": 84222,
+            "driving_cost": 43702,
+            "walking_cost": 41234,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2351,8 +2428,8 @@
             }
         },
         {
-            "driving_cost": 90639,
-            "walking_cost": 75216,
+            "driving_cost": 156790,
+            "walking_cost": 144420,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2379,8 +2456,8 @@
             }
         },
         {
-            "driving_cost": 68438,
-            "walking_cost": 66208,
+            "driving_cost": 79889,
+            "walking_cost": 76051,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2393,8 +2470,8 @@
             }
         },
         {
-            "driving_cost": 96359,
-            "walking_cost": 95494,
+            "driving_cost": 32754,
+            "walking_cost": 32310,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2407,8 +2484,8 @@
             }
         },
         {
-            "driving_cost": 88732,
-            "walking_cost": 85884,
+            "driving_cost": 43294,
+            "walking_cost": 38003,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2421,8 +2498,8 @@
             }
         },
         {
-            "driving_cost": 92850,
-            "walking_cost": 85485,
+            "driving_cost": 143982,
+            "walking_cost": 118953,
             "source": {
                 "lat": 31.6658,
                 "lng": 34.5664,
@@ -2449,8 +2526,8 @@
             }
         },
         {
-            "driving_cost": 31918,
-            "walking_cost": 31749,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2463,8 +2540,8 @@
             }
         },
         {
-            "driving_cost": 36616,
-            "walking_cost": 28547,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2477,8 +2554,8 @@
             }
         },
         {
-            "driving_cost": 80468,
-            "walking_cost": 79256,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2491,8 +2568,8 @@
             }
         },
         {
-            "driving_cost": 33942,
-            "walking_cost": 32345,
+            "driving_cost": 54199,
+            "walking_cost": 47649,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2505,7 +2582,7 @@
             }
         },
         {
-            "driving_cost": 55129,
+            "driving_cost": 55132,
             "walking_cost": 51926,
             "source": {
                 "lat": 32.1858,
@@ -2519,8 +2596,8 @@
             }
         },
         {
-            "driving_cost": 351344,
-            "walking_cost": 343640,
+            "driving_cost": 391197,
+            "walking_cost": 373032,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2533,8 +2610,8 @@
             }
         },
         {
-            "driving_cost": 102191,
-            "walking_cost": 101443,
+            "driving_cost": 68353,
+            "walking_cost": 73833,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2547,8 +2624,8 @@
             }
         },
         {
-            "driving_cost": 107450,
-            "walking_cost": 107866,
+            "driving_cost": 47866,
+            "walking_cost": 46783,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2561,8 +2638,8 @@
             }
         },
         {
-            "driving_cost": 98945,
-            "walking_cost": 99167,
+            "driving_cost": 171331,
+            "walking_cost": 173264,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2575,7 +2652,7 @@
             }
         },
         {
-            "driving_cost": 109602,
+            "driving_cost": 109604,
             "walking_cost": 107236,
             "source": {
                 "lat": 32.1858,
@@ -2589,8 +2666,8 @@
             }
         },
         {
-            "driving_cost": 113125,
-            "walking_cost": 107357,
+            "driving_cost": 88701,
+            "walking_cost": 83037,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2603,8 +2680,8 @@
             }
         },
         {
-            "driving_cost": 14955,
-            "walking_cost": 14011,
+            "driving_cost": 44124,
+            "walking_cost": 40567,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2617,8 +2694,8 @@
             }
         },
         {
-            "driving_cost": 105016,
-            "walking_cost": 101616,
+            "driving_cost": 35137,
+            "walking_cost": 25778,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2631,64 +2708,8 @@
             }
         },
         {
-            "driving_cost": 75896,
-            "walking_cost": 70732,
-            "source": {
-                "lat": 32.1858,
-                "lng": 34.9077,
-                "name": "Kefar Saba"
-            },
-            "target": {
-                "lat": 31.78336,
-                "lng": 35.23388,
-                "name": "East Jerusalem"
-            }
-        },
-        {
-            "driving_cost": 52228,
-            "walking_cost": 45047,
-            "source": {
-                "lat": 32.1858,
-                "lng": 34.9077,
-                "name": "Kefar Saba"
-            },
-            "target": {
-                "lat": 32.22111,
-                "lng": 35.25444,
-                "name": "Nablus"
-            }
-        },
-        {
-            "driving_cost": 71197,
-            "walking_cost": 62364,
-            "source": {
-                "lat": 32.1858,
-                "lng": 34.9077,
-                "name": "Kefar Saba"
-            },
-            "target": {
-                "lat": 31.89964,
-                "lng": 35.20422,
-                "name": "Ramallah"
-            }
-        },
-        {
-            "driving_cost": 84985,
-            "walking_cost": 79920,
-            "source": {
-                "lat": 32.1858,
-                "lng": 34.9077,
-                "name": "Kefar Saba"
-            },
-            "target": {
-                "lat": 31.70487,
-                "lng": 35.20376,
-                "name": "Bethlehem"
-            }
-        },
-        {
-            "driving_cost": 108109,
-            "walking_cost": 95724,
+            "driving_cost": 113764,
+            "walking_cost": 109062,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2715,8 +2736,8 @@
             }
         },
         {
-            "driving_cost": 21752,
-            "walking_cost": 20912,
+            "driving_cost": 32754,
+            "walking_cost": 32310,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2729,8 +2750,8 @@
             }
         },
         {
-            "driving_cost": 16835,
-            "walking_cost": 12875,
+            "driving_cost": 43294,
+            "walking_cost": 38003,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2743,8 +2764,8 @@
             }
         },
         {
-            "driving_cost": 72176,
-            "walking_cost": 60409,
+            "driving_cost": 143982,
+            "walking_cost": 118953,
             "source": {
                 "lat": 32.1858,
                 "lng": 34.9077,
@@ -2754,6 +2775,62 @@
                 "lat": 31.91001,
                 "lng": 35.21645,
                 "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 81550,
+            "walking_cost": 76346,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 63231,
+            "walking_cost": 56445,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 43702,
+            "walking_cost": 41234,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 156790,
+            "walking_cost": 144420,
+            "source": {
+                "lat": 32.1858,
+                "lng": 34.9077,
+                "name": "Kefar Saba"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
             }
         },
         {
@@ -2771,8 +2848,8 @@
             }
         },
         {
-            "driving_cost": 76468,
-            "walking_cost": 57938,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -2785,8 +2862,8 @@
             }
         },
         {
-            "driving_cost": 56254,
-            "walking_cost": 54936,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -2799,8 +2876,8 @@
             }
         },
         {
-            "driving_cost": 68232,
-            "walking_cost": 61737,
+            "driving_cost": 54199,
+            "walking_cost": 47649,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -2813,8 +2890,8 @@
             }
         },
         {
-            "driving_cost": 30916,
-            "walking_cost": 27606,
+            "driving_cost": 55132,
+            "walking_cost": 51926,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -2841,8 +2918,8 @@
             }
         },
         {
-            "driving_cost": 142043,
-            "walking_cost": 130835,
+            "driving_cost": 68353,
+            "walking_cost": 73833,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -2855,8 +2932,8 @@
             }
         },
         {
-            "driving_cost": 77824,
-            "walking_cost": 76926,
+            "driving_cost": 47866,
+            "walking_cost": 46783,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -2869,8 +2946,8 @@
             }
         },
         {
-            "driving_cost": 69319,
-            "walking_cost": 68226,
+            "driving_cost": 171331,
+            "walking_cost": 173264,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -2883,8 +2960,8 @@
             }
         },
         {
-            "driving_cost": 85178,
-            "walking_cost": 80198,
+            "driving_cost": 109604,
+            "walking_cost": 107236,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -2911,8 +2988,8 @@
             }
         },
         {
-            "driving_cost": 30425,
-            "walking_cost": 28431,
+            "driving_cost": 44124,
+            "walking_cost": 40567,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -2925,8 +3002,8 @@
             }
         },
         {
-            "driving_cost": 80592,
-            "walking_cost": 74578,
+            "driving_cost": 35137,
+            "walking_cost": 25778,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -2939,8 +3016,8 @@
             }
         },
         {
-            "driving_cost": 115748,
-            "walking_cost": 100124,
+            "driving_cost": 81550,
+            "walking_cost": 76346,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -2950,6 +3027,20 @@
                 "lat": 31.78336,
                 "lng": 35.23388,
                 "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 57889,
+            "walking_cost": 56493,
+            "source": {
+                "lat": 32.45,
+                "lng": 34.9167,
+                "name": "Hadera"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
             }
         },
         {
@@ -2967,8 +3058,8 @@
             }
         },
         {
-            "driving_cost": 111050,
-            "walking_cost": 92238,
+            "driving_cost": 43702,
+            "walking_cost": 41234,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -2981,8 +3072,8 @@
             }
         },
         {
-            "driving_cost": 124837,
-            "walking_cost": 109312,
+            "driving_cost": 156790,
+            "walking_cost": 144420,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -2995,8 +3086,8 @@
             }
         },
         {
-            "driving_cost": 147962,
-            "walking_cost": 125116,
+            "driving_cost": 113764,
+            "walking_cost": 109062,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -3009,8 +3100,8 @@
             }
         },
         {
-            "driving_cost": 119742,
-            "walking_cost": 105443,
+            "driving_cost": 79889,
+            "walking_cost": 76051,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -3037,8 +3128,8 @@
             }
         },
         {
-            "driving_cost": 57252,
-            "walking_cost": 38104,
+            "driving_cost": 43294,
+            "walking_cost": 38003,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -3051,8 +3142,8 @@
             }
         },
         {
-            "driving_cost": 112029,
-            "walking_cost": 90284,
+            "driving_cost": 143982,
+            "walking_cost": 118953,
             "source": {
                 "lat": 32.45,
                 "lng": 34.9167,
@@ -3079,8 +3170,8 @@
             }
         },
         {
-            "driving_cost": 107417,
-            "walking_cost": 106680,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3093,8 +3184,8 @@
             }
         },
         {
-            "driving_cost": 4782,
-            "walking_cost": 4607,
+            "driving_cost": 54199,
+            "walking_cost": 47649,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3107,8 +3198,8 @@
             }
         },
         {
-            "driving_cost": 82078,
-            "walking_cost": 79350,
+            "driving_cost": 55132,
+            "walking_cost": 51926,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3121,8 +3212,8 @@
             }
         },
         {
-            "driving_cost": 317507,
-            "walking_cost": 316049,
+            "driving_cost": 391197,
+            "walking_cost": 373032,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3136,7 +3227,7 @@
         },
         {
             "driving_cost": 68353,
-            "walking_cost": 73852,
+            "walking_cost": 73833,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3149,8 +3240,8 @@
             }
         },
         {
-            "driving_cost": 134398,
-            "walking_cost": 133711,
+            "driving_cost": 47866,
+            "walking_cost": 46783,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3163,8 +3254,8 @@
             }
         },
         {
-            "driving_cost": 125893,
-            "walking_cost": 125012,
+            "driving_cost": 171331,
+            "walking_cost": 173264,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3177,8 +3268,8 @@
             }
         },
         {
-            "driving_cost": 136550,
-            "walking_cost": 134660,
+            "driving_cost": 109604,
+            "walking_cost": 107236,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3191,8 +3282,8 @@
             }
         },
         {
-            "driving_cost": 140074,
-            "walking_cost": 134781,
+            "driving_cost": 88701,
+            "walking_cost": 83037,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3206,7 +3297,7 @@
         },
         {
             "driving_cost": 44124,
-            "walking_cost": 40444,
+            "walking_cost": 40567,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3219,8 +3310,8 @@
             }
         },
         {
-            "driving_cost": 131964,
-            "walking_cost": 129040,
+            "driving_cost": 35137,
+            "walking_cost": 25778,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3233,8 +3324,8 @@
             }
         },
         {
-            "driving_cost": 48009,
-            "walking_cost": 45075,
+            "driving_cost": 81550,
+            "walking_cost": 76346,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3247,8 +3338,22 @@
             }
         },
         {
-            "driving_cost": 81397,
-            "walking_cost": 70619,
+            "driving_cost": 43865,
+            "walking_cost": 41237,
+            "source": {
+                "lat": 31.95,
+                "lng": 34.9,
+                "name": "Lod"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 63231,
+            "walking_cost": 56445,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3275,8 +3380,8 @@
             }
         },
         {
-            "driving_cost": 57098,
-            "walking_cost": 54263,
+            "driving_cost": 156790,
+            "walking_cost": 144420,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3289,8 +3394,8 @@
             }
         },
         {
-            "driving_cost": 80223,
-            "walking_cost": 70100,
+            "driving_cost": 113764,
+            "walking_cost": 109062,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3303,8 +3408,8 @@
             }
         },
         {
-            "driving_cost": 52003,
-            "walking_cost": 48313,
+            "driving_cost": 79889,
+            "walking_cost": 76051,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3317,8 +3422,8 @@
             }
         },
         {
-            "driving_cost": 50921,
-            "walking_cost": 47242,
+            "driving_cost": 32754,
+            "walking_cost": 32310,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3332,7 +3437,7 @@
         },
         {
             "driving_cost": 43294,
-            "walking_cost": 37631,
+            "walking_cost": 38003,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3345,8 +3450,8 @@
             }
         },
         {
-            "driving_cost": 44681,
-            "walking_cost": 42497,
+            "driving_cost": 143982,
+            "walking_cost": 118953,
             "source": {
                 "lat": 31.95,
                 "lng": 34.9,
@@ -3373,8 +3478,8 @@
             }
         },
         {
-            "driving_cost": 115387,
-            "walking_cost": 110491,
+            "driving_cost": 54199,
+            "walking_cost": 47649,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3387,8 +3492,8 @@
             }
         },
         {
-            "driving_cost": 32689,
-            "walking_cost": 30228,
+            "driving_cost": 55132,
+            "walking_cost": 51926,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3401,8 +3506,8 @@
             }
         },
         {
-            "driving_cost": 423150,
-            "walking_cost": 403462,
+            "driving_cost": 391197,
+            "walking_cost": 373032,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3415,8 +3520,8 @@
             }
         },
         {
-            "driving_cost": 173996,
-            "walking_cost": 179590,
+            "driving_cost": 68353,
+            "walking_cost": 73833,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3443,8 +3548,8 @@
             }
         },
         {
-            "driving_cost": 39361,
-            "walking_cost": 38083,
+            "driving_cost": 171331,
+            "walking_cost": 173264,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3457,8 +3562,8 @@
             }
         },
         {
-            "driving_cost": 41039,
-            "walking_cost": 31794,
+            "driving_cost": 109604,
+            "walking_cost": 107236,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3471,8 +3576,8 @@
             }
         },
         {
-            "driving_cost": 31235,
-            "walking_cost": 27774,
+            "driving_cost": 88701,
+            "walking_cost": 83037,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3485,8 +3590,8 @@
             }
         },
         {
-            "driving_cost": 70948,
-            "walking_cost": 68297,
+            "driving_cost": 44124,
+            "walking_cost": 40567,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3513,8 +3618,8 @@
             }
         },
         {
-            "driving_cost": 147701,
-            "walking_cost": 134566,
+            "driving_cost": 81550,
+            "walking_cost": 76346,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3527,8 +3632,22 @@
             }
         },
         {
-            "driving_cost": 103753,
-            "walking_cost": 67523,
+            "driving_cost": 154710,
+            "walking_cost": 144097,
+            "source": {
+                "lat": 32.7021,
+                "lng": 35.2978,
+                "name": "Nazareth"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 63231,
+            "walking_cost": 56445,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3541,8 +3660,8 @@
             }
         },
         {
-            "driving_cost": 143003,
-            "walking_cost": 120806,
+            "driving_cost": 43702,
+            "walking_cost": 41234,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3569,8 +3688,8 @@
             }
         },
         {
-            "driving_cost": 140081,
-            "walking_cost": 137294,
+            "driving_cost": 113764,
+            "walking_cost": 109062,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3583,8 +3702,8 @@
             }
         },
         {
-            "driving_cost": 151695,
-            "walking_cost": 154197,
+            "driving_cost": 79889,
+            "walking_cost": 76051,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3597,8 +3716,8 @@
             }
         },
         {
-            "driving_cost": 73277,
-            "walking_cost": 64663,
+            "driving_cost": 32754,
+            "walking_cost": 32310,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3611,8 +3730,8 @@
             }
         },
         {
-            "driving_cost": 89205,
-            "walking_cost": 79661,
+            "driving_cost": 43294,
+            "walking_cost": 38003,
             "source": {
                 "lat": 32.7021,
                 "lng": 35.2978,
@@ -3653,8 +3772,8 @@
             }
         },
         {
-            "driving_cost": 90053,
-            "walking_cost": 83161,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3667,8 +3786,8 @@
             }
         },
         {
-            "driving_cost": 317575,
-            "walking_cost": 312253,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3681,8 +3800,8 @@
             }
         },
         {
-            "driving_cost": 68422,
-            "walking_cost": 70056,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3695,8 +3814,8 @@
             }
         },
         {
-            "driving_cost": 142373,
-            "walking_cost": 137522,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3723,8 +3842,8 @@
             }
         },
         {
-            "driving_cost": 144525,
-            "walking_cost": 138470,
+            "driving_cost": 67974,
+            "walking_cost": 60603,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3737,8 +3856,8 @@
             }
         },
         {
-            "driving_cost": 148049,
-            "walking_cost": 138591,
+            "driving_cost": 454714,
+            "walking_cost": 406482,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3751,8 +3870,8 @@
             }
         },
         {
-            "driving_cost": 52099,
-            "walking_cost": 44255,
+            "driving_cost": 109349,
+            "walking_cost": 113529,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3765,8 +3884,8 @@
             }
         },
         {
-            "driving_cost": 139939,
-            "walking_cost": 132850,
+            "driving_cost": 32149,
+            "walking_cost": 32142,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3793,8 +3912,22 @@
             }
         },
         {
-            "driving_cost": 89372,
-            "walking_cost": 74430,
+            "driving_cost": 45170,
+            "walking_cost": 49429,
+            "source": {
+                "lat": 31.9318,
+                "lng": 34.8736,
+                "name": "Ramla"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 396037,
+            "walking_cost": 354138,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3807,8 +3940,8 @@
             }
         },
         {
-            "driving_cost": 47728,
-            "walking_cost": 45632,
+            "driving_cost": 105016,
+            "walking_cost": 94352,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3821,8 +3954,8 @@
             }
         },
         {
-            "driving_cost": 56630,
-            "walking_cost": 54282,
+            "driving_cost": 182672,
+            "walking_cost": 184542,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3849,8 +3982,8 @@
             }
         },
         {
-            "driving_cost": 51535,
-            "walking_cost": 46047,
+            "driving_cost": 123822,
+            "walking_cost": 126806,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3863,8 +3996,8 @@
             }
         },
         {
-            "driving_cost": 58896,
-            "walking_cost": 51052,
+            "driving_cost": 365561,
+            "walking_cost": 362458,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3877,8 +4010,8 @@
             }
         },
         {
-            "driving_cost": 51269,
-            "walking_cost": 41442,
+            "driving_cost": 108519,
+            "walking_cost": 110965,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3891,8 +4024,8 @@
             }
         },
         {
-            "driving_cost": 48708,
-            "walking_cost": 46895,
+            "driving_cost": 169864,
+            "walking_cost": 165050,
             "source": {
                 "lat": 31.9318,
                 "lng": 34.8736,
@@ -3919,8 +4052,8 @@
             }
         },
         {
-            "driving_cost": 395276,
-            "walking_cost": 394395,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.5158,
                 "lng": 35.1525,
@@ -3933,8 +4066,8 @@
             }
         },
         {
-            "driving_cost": 146123,
-            "walking_cost": 152198,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.5158,
                 "lng": 35.1525,
@@ -3947,8 +4080,8 @@
             }
         },
         {
-            "driving_cost": 65823,
-            "walking_cost": 66060,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.5158,
                 "lng": 35.1525,
@@ -3961,8 +4094,8 @@
             }
         },
         {
-            "driving_cost": 57317,
-            "walking_cost": 57361,
+            "driving_cost": 133868,
+            "walking_cost": 128822,
             "source": {
                 "lat": 32.5158,
                 "lng": 35.1525,
@@ -3989,8 +4122,8 @@
             }
         },
         {
-            "driving_cost": 71551,
-            "walking_cost": 58296,
+            "driving_cost": 454714,
+            "walking_cost": 406482,
             "source": {
                 "lat": 32.5158,
                 "lng": 35.1525,
@@ -4003,8 +4136,8 @@
             }
         },
         {
-            "driving_cost": 43075,
-            "walking_cost": 40905,
+            "driving_cost": 109349,
+            "walking_cost": 113529,
             "source": {
                 "lat": 32.5158,
                 "lng": 35.1525,
@@ -4017,8 +4150,8 @@
             }
         },
         {
-            "driving_cost": 63388,
-            "walking_cost": 54588,
+            "driving_cost": 32149,
+            "walking_cost": 32142,
             "source": {
                 "lat": 32.5158,
                 "lng": 35.1525,
@@ -4031,64 +4164,8 @@
             }
         },
         {
-            "driving_cost": 119828,
-            "walking_cost": 119163,
-            "source": {
-                "lat": 32.5158,
-                "lng": 35.1525,
-                "name": "Umm el Fahm"
-            },
-            "target": {
-                "lat": 31.78336,
-                "lng": 35.23388,
-                "name": "East Jerusalem"
-            }
-        },
-        {
-            "driving_cost": 75880,
-            "walking_cost": 53225,
-            "source": {
-                "lat": 32.5158,
-                "lng": 35.1525,
-                "name": "Umm el Fahm"
-            },
-            "target": {
-                "lat": 32.22111,
-                "lng": 35.25444,
-                "name": "Nablus"
-            }
-        },
-        {
-            "driving_cost": 115129,
-            "walking_cost": 105049,
-            "source": {
-                "lat": 32.5158,
-                "lng": 35.1525,
-                "name": "Umm el Fahm"
-            },
-            "target": {
-                "lat": 31.89964,
-                "lng": 35.20422,
-                "name": "Ramallah"
-            }
-        },
-        {
-            "driving_cost": 128917,
-            "walking_cost": 128350,
-            "source": {
-                "lat": 32.5158,
-                "lng": 35.1525,
-                "name": "Umm el Fahm"
-            },
-            "target": {
-                "lat": 31.70487,
-                "lng": 35.20376,
-                "name": "Bethlehem"
-            }
-        },
-        {
-            "driving_cost": 152041,
-            "walking_cost": 141199,
+            "driving_cost": 79754,
+            "walking_cost": 74498,
             "source": {
                 "lat": 32.5158,
                 "lng": 35.1525,
@@ -4115,8 +4192,8 @@
             }
         },
         {
-            "driving_cost": 45404,
-            "walking_cost": 36372,
+            "driving_cost": 365561,
+            "walking_cost": 362458,
             "source": {
                 "lat": 32.5158,
                 "lng": 35.1525,
@@ -4129,8 +4206,8 @@
             }
         },
         {
-            "driving_cost": 61331,
-            "walking_cost": 52269,
+            "driving_cost": 108519,
+            "walking_cost": 110965,
             "source": {
                 "lat": 32.5158,
                 "lng": 35.1525,
@@ -4143,8 +4220,8 @@
             }
         },
         {
-            "driving_cost": 116109,
-            "walking_cost": 103197,
+            "driving_cost": 169864,
+            "walking_cost": 165050,
             "source": {
                 "lat": 32.5158,
                 "lng": 35.1525,
@@ -4154,6 +4231,62 @@
                 "lat": 31.91001,
                 "lng": 35.21645,
                 "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 47541,
+            "walking_cost": 49472,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 396037,
+            "walking_cost": 354138,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 105016,
+            "walking_cost": 94352,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 182672,
+            "walking_cost": 184542,
+            "source": {
+                "lat": 32.5158,
+                "lng": 35.1525,
+                "name": "Umm el Fahm"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
             }
         },
         {
@@ -4171,8 +4304,8 @@
             }
         },
         {
-            "driving_cost": 254736,
-            "walking_cost": 247093,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 29.55,
                 "lng": 34.95,
@@ -4185,8 +4318,8 @@
             }
         },
         {
-            "driving_cost": 449039,
-            "walking_cost": 449829,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 29.55,
                 "lng": 34.95,
@@ -4199,8 +4332,8 @@
             }
         },
         {
-            "driving_cost": 440534,
-            "walking_cost": 441129,
+            "driving_cost": 133868,
+            "walking_cost": 128822,
             "source": {
                 "lat": 29.55,
                 "lng": 34.95,
@@ -4213,8 +4346,8 @@
             }
         },
         {
-            "driving_cost": 451190,
-            "walking_cost": 430800,
+            "driving_cost": 67974,
+            "walking_cost": 60603,
             "source": {
                 "lat": 29.55,
                 "lng": 34.95,
@@ -4241,8 +4374,8 @@
             }
         },
         {
-            "driving_cost": 358765,
-            "walking_cost": 355538,
+            "driving_cost": 109349,
+            "walking_cost": 113529,
             "source": {
                 "lat": 29.55,
                 "lng": 34.95,
@@ -4255,8 +4388,8 @@
             }
         },
         {
-            "driving_cost": 446604,
-            "walking_cost": 424883,
+            "driving_cost": 32149,
+            "walking_cost": 32142,
             "source": {
                 "lat": 29.55,
                 "lng": 34.95,
@@ -4269,8 +4402,8 @@
             }
         },
         {
-            "driving_cost": 309359,
-            "walking_cost": 303210,
+            "driving_cost": 47541,
+            "walking_cost": 49472,
             "source": {
                 "lat": 29.55,
                 "lng": 34.95,
@@ -4280,6 +4413,20 @@
                 "lat": 31.78336,
                 "lng": 35.23388,
                 "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 390283,
+            "walking_cost": 354224,
+            "source": {
+                "lat": 29.55,
+                "lng": 34.95,
+                "name": "Um Al Rashrash"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
             }
         },
         {
@@ -4297,8 +4444,8 @@
             }
         },
         {
-            "driving_cost": 316785,
-            "walking_cost": 309028,
+            "driving_cost": 105016,
+            "walking_cost": 94352,
             "source": {
                 "lat": 29.55,
                 "lng": 34.95,
@@ -4311,8 +4458,8 @@
             }
         },
         {
-            "driving_cost": 325154,
-            "walking_cost": 293178,
+            "driving_cost": 182672,
+            "walking_cost": 184542,
             "source": {
                 "lat": 29.55,
                 "lng": 34.95,
@@ -4325,8 +4472,8 @@
             }
         },
         {
-            "driving_cost": 291291,
-            "walking_cost": 284055,
+            "driving_cost": 79754,
+            "walking_cost": 74498,
             "source": {
                 "lat": 29.55,
                 "lng": 34.95,
@@ -4339,8 +4486,8 @@
             }
         },
         {
-            "driving_cost": 317443,
-            "walking_cost": 288840,
+            "driving_cost": 123822,
+            "walking_cost": 126806,
             "source": {
                 "lat": 29.55,
                 "lng": 34.95,
@@ -4354,7 +4501,7 @@
         },
         {
             "driving_cost": 365561,
-            "walking_cost": 362335,
+            "walking_cost": 362458,
             "source": {
                 "lat": 29.55,
                 "lng": 34.95,
@@ -4367,8 +4514,8 @@
             }
         },
         {
-            "driving_cost": 357934,
-            "walking_cost": 352725,
+            "driving_cost": 108519,
+            "walking_cost": 110965,
             "source": {
                 "lat": 29.55,
                 "lng": 34.95,
@@ -4381,8 +4528,8 @@
             }
         },
         {
-            "driving_cost": 332476,
-            "walking_cost": 310292,
+            "driving_cost": 169864,
+            "walking_cost": 165050,
             "source": {
                 "lat": 29.55,
                 "lng": 34.95,
@@ -4409,8 +4556,8 @@
             }
         },
         {
-            "driving_cost": 199623,
-            "walking_cost": 206674,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.3925,
                 "lng": 34.7544,
@@ -4423,8 +4570,8 @@
             }
         },
         {
-            "driving_cost": 191118,
-            "walking_cost": 197974,
+            "driving_cost": 133868,
+            "walking_cost": 128822,
             "source": {
                 "lat": 31.3925,
                 "lng": 34.7544,
@@ -4437,8 +4584,8 @@
             }
         },
         {
-            "driving_cost": 201775,
-            "walking_cost": 207622,
+            "driving_cost": 67974,
+            "walking_cost": 60603,
             "source": {
                 "lat": 31.3925,
                 "lng": 34.7544,
@@ -4451,8 +4598,8 @@
             }
         },
         {
-            "driving_cost": 205298,
-            "walking_cost": 207743,
+            "driving_cost": 454714,
+            "walking_cost": 406482,
             "source": {
                 "lat": 31.3925,
                 "lng": 34.7544,
@@ -4466,7 +4613,7 @@
         },
         {
             "driving_cost": 109349,
-            "walking_cost": 113407,
+            "walking_cost": 113529,
             "source": {
                 "lat": 31.3925,
                 "lng": 34.7544,
@@ -4479,8 +4626,8 @@
             }
         },
         {
-            "driving_cost": 197189,
-            "walking_cost": 202002,
+            "driving_cost": 32149,
+            "walking_cost": 32142,
             "source": {
                 "lat": 31.3925,
                 "lng": 34.7544,
@@ -4493,8 +4640,8 @@
             }
         },
         {
-            "driving_cost": 93349,
-            "walking_cost": 81310,
+            "driving_cost": 47541,
+            "walking_cost": 49472,
             "source": {
                 "lat": 31.3925,
                 "lng": 34.7544,
@@ -4507,8 +4654,22 @@
             }
         },
         {
-            "driving_cost": 146622,
-            "walking_cost": 143582,
+            "driving_cost": 104083,
+            "walking_cost": 94379,
+            "source": {
+                "lat": 31.3925,
+                "lng": 34.7544,
+                "name": "Rahat"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 396037,
+            "walking_cost": 354138,
             "source": {
                 "lat": 31.3925,
                 "lng": 34.7544,
@@ -4535,8 +4696,8 @@
             }
         },
         {
-            "driving_cost": 79588,
-            "walking_cost": 75456,
+            "driving_cost": 182672,
+            "walking_cost": 184542,
             "source": {
                 "lat": 31.3925,
                 "lng": 34.7544,
@@ -4549,8 +4710,8 @@
             }
         },
         {
-            "driving_cost": 125563,
-            "walking_cost": 114219,
+            "driving_cost": 79754,
+            "walking_cost": 74498,
             "source": {
                 "lat": 31.3925,
                 "lng": 34.7544,
@@ -4563,8 +4724,8 @@
             }
         },
         {
-            "driving_cost": 68028,
-            "walking_cost": 66387,
+            "driving_cost": 123822,
+            "walking_cost": 126806,
             "source": {
                 "lat": 31.3925,
                 "lng": 34.7544,
@@ -4577,8 +4738,8 @@
             }
         },
         {
-            "driving_cost": 116146,
-            "walking_cost": 120204,
+            "driving_cost": 365561,
+            "walking_cost": 362458,
             "source": {
                 "lat": 31.3925,
                 "lng": 34.7544,
@@ -4592,7 +4753,7 @@
         },
         {
             "driving_cost": 108519,
-            "walking_cost": 110594,
+            "walking_cost": 110965,
             "source": {
                 "lat": 31.3925,
                 "lng": 34.7544,
@@ -4605,8 +4766,8 @@
             }
         },
         {
-            "driving_cost": 105996,
-            "walking_cost": 95615,
+            "driving_cost": 169864,
+            "walking_cost": 165050,
             "source": {
                 "lat": 31.3925,
                 "lng": 34.7544,
@@ -4633,8 +4794,8 @@
             }
         },
         {
-            "driving_cost": 9962,
-            "walking_cost": 9781,
+            "driving_cost": 133868,
+            "walking_cost": 128822,
             "source": {
                 "lat": 33.0036,
                 "lng": 35.0925,
@@ -4647,8 +4808,8 @@
             }
         },
         {
-            "driving_cost": 31132,
-            "walking_cost": 28568,
+            "driving_cost": 67974,
+            "walking_cost": 60603,
             "source": {
                 "lat": 33.0036,
                 "lng": 35.0925,
@@ -4661,8 +4822,8 @@
             }
         },
         {
-            "driving_cost": 66821,
-            "walking_cost": 61457,
+            "driving_cost": 454714,
+            "walking_cost": 406482,
             "source": {
                 "lat": 33.0036,
                 "lng": 35.0925,
@@ -4675,8 +4836,8 @@
             }
         },
         {
-            "driving_cost": 96830,
-            "walking_cost": 96974,
+            "driving_cost": 109349,
+            "walking_cost": 113529,
             "source": {
                 "lat": 33.0036,
                 "lng": 35.0925,
@@ -4703,8 +4864,8 @@
             }
         },
         {
-            "driving_cost": 173583,
-            "walking_cost": 175232,
+            "driving_cost": 47541,
+            "walking_cost": 49472,
             "source": {
                 "lat": 33.0036,
                 "lng": 35.0925,
@@ -4717,8 +4878,22 @@
             }
         },
         {
-            "driving_cost": 129635,
-            "walking_cost": 114602,
+            "driving_cost": 181692,
+            "walking_cost": 184394,
+            "source": {
+                "lat": 33.0036,
+                "lng": 35.0925,
+                "name": "Nahariyya"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 396037,
+            "walking_cost": 354138,
             "source": {
                 "lat": 33.0036,
                 "lng": 35.0925,
@@ -4731,8 +4906,8 @@
             }
         },
         {
-            "driving_cost": 168885,
-            "walking_cost": 166883,
+            "driving_cost": 105016,
+            "walking_cost": 94352,
             "source": {
                 "lat": 33.0036,
                 "lng": 35.0925,
@@ -4746,7 +4921,7 @@
         },
         {
             "driving_cost": 182672,
-            "walking_cost": 184419,
+            "walking_cost": 184542,
             "source": {
                 "lat": 33.0036,
                 "lng": 35.0925,
@@ -4759,8 +4934,8 @@
             }
         },
         {
-            "driving_cost": 205797,
-            "walking_cost": 183746,
+            "driving_cost": 79754,
+            "walking_cost": 74498,
             "source": {
                 "lat": 33.0036,
                 "lng": 35.0925,
@@ -4773,8 +4948,8 @@
             }
         },
         {
-            "driving_cost": 177577,
-            "walking_cost": 181203,
+            "driving_cost": 123822,
+            "walking_cost": 126806,
             "source": {
                 "lat": 33.0036,
                 "lng": 35.0925,
@@ -4787,8 +4962,8 @@
             }
         },
         {
-            "driving_cost": 99159,
-            "walking_cost": 95651,
+            "driving_cost": 365561,
+            "walking_cost": 362458,
             "source": {
                 "lat": 33.0036,
                 "lng": 35.0925,
@@ -4801,8 +4976,8 @@
             }
         },
         {
-            "driving_cost": 115087,
-            "walking_cost": 108338,
+            "driving_cost": 108519,
+            "walking_cost": 110965,
             "source": {
                 "lat": 33.0036,
                 "lng": 35.0925,
@@ -4816,7 +4991,7 @@
         },
         {
             "driving_cost": 169864,
-            "walking_cost": 164928,
+            "walking_cost": 165050,
             "source": {
                 "lat": 33.0036,
                 "lng": 35.0925,
@@ -4843,8 +5018,8 @@
             }
         },
         {
-            "driving_cost": 22798,
-            "walking_cost": 23192,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.9261,
                 "lng": 35.0839,
@@ -4857,8 +5032,8 @@
             }
         },
         {
-            "driving_cost": 58155,
-            "walking_cost": 56828,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.9261,
                 "lng": 35.0839,
@@ -4871,8 +5046,8 @@
             }
         },
         {
-            "driving_cost": 88164,
-            "walking_cost": 88272,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.9261,
                 "lng": 35.0839,
@@ -4885,8 +5060,8 @@
             }
         },
         {
-            "driving_cost": 23814,
-            "walking_cost": 23976,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.9261,
                 "lng": 35.0839,
@@ -4900,7 +5075,7 @@
         },
         {
             "driving_cost": 164917,
-            "walking_cost": 166529,
+            "walking_cost": 166651,
             "source": {
                 "lat": 32.9261,
                 "lng": 35.0839,
@@ -4913,8 +5088,22 @@
             }
         },
         {
-            "driving_cost": 120969,
-            "walking_cost": 105900,
+            "driving_cost": 164711,
+            "walking_cost": 166513,
+            "source": {
+                "lat": 32.9261,
+                "lng": 35.0839,
+                "name": "Akko"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 134796,
+            "walking_cost": 94180,
             "source": {
                 "lat": 32.9261,
                 "lng": 35.0839,
@@ -4927,8 +5116,8 @@
             }
         },
         {
-            "driving_cost": 160219,
-            "walking_cost": 158180,
+            "driving_cost": 79997,
+            "walking_cost": 71349,
             "source": {
                 "lat": 32.9261,
                 "lng": 35.0839,
@@ -4941,8 +5130,8 @@
             }
         },
         {
-            "driving_cost": 174006,
-            "walking_cost": 175717,
+            "driving_cost": 177928,
+            "walking_cost": 170115,
             "source": {
                 "lat": 32.9261,
                 "lng": 35.0839,
@@ -4956,7 +5145,7 @@
         },
         {
             "driving_cost": 197130,
-            "walking_cost": 175044,
+            "walking_cost": 175041,
             "source": {
                 "lat": 32.9261,
                 "lng": 35.0839,
@@ -4969,8 +5158,8 @@
             }
         },
         {
-            "driving_cost": 168911,
-            "walking_cost": 172501,
+            "driving_cost": 179610,
+            "walking_cost": 182177,
             "source": {
                 "lat": 32.9261,
                 "lng": 35.0839,
@@ -4983,8 +5172,8 @@
             }
         },
         {
-            "driving_cost": 90493,
-            "walking_cost": 86949,
+            "driving_cost": 104320,
+            "walking_cost": 92679,
             "source": {
                 "lat": 32.9261,
                 "lng": 35.0839,
@@ -4997,8 +5186,8 @@
             }
         },
         {
-            "driving_cost": 106421,
-            "walking_cost": 99636,
+            "driving_cost": 26195,
+            "walking_cost": 11929,
             "source": {
                 "lat": 32.9261,
                 "lng": 35.0839,
@@ -5011,8 +5200,8 @@
             }
         },
         {
-            "driving_cost": 161198,
-            "walking_cost": 156226,
+            "driving_cost": 165120,
+            "walking_cost": 144647,
             "source": {
                 "lat": 32.9261,
                 "lng": 35.0839,
@@ -5039,8 +5228,8 @@
             }
         },
         {
-            "driving_cost": 43397,
-            "walking_cost": 38439,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.9,
                 "lng": 35.2833,
@@ -5053,8 +5242,8 @@
             }
         },
         {
-            "driving_cost": 98863,
-            "walking_cost": 96276,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.9,
                 "lng": 35.2833,
@@ -5067,8 +5256,8 @@
             }
         },
         {
-            "driving_cost": 12156,
-            "walking_cost": 8213,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.9,
                 "lng": 35.2833,
@@ -5081,64 +5270,8 @@
             }
         },
         {
-            "driving_cost": 175616,
-            "walking_cost": 166278,
-            "source": {
-                "lat": 32.9,
-                "lng": 35.2833,
-                "name": "Karmiel"
-            },
-            "target": {
-                "lat": 31.78336,
-                "lng": 35.23388,
-                "name": "East Jerusalem"
-            }
-        },
-        {
-            "driving_cost": 131668,
-            "walking_cost": 99235,
-            "source": {
-                "lat": 32.9,
-                "lng": 35.2833,
-                "name": "Karmiel"
-            },
-            "target": {
-                "lat": 32.22111,
-                "lng": 35.25444,
-                "name": "Nablus"
-            }
-        },
-        {
-            "driving_cost": 170918,
-            "walking_cost": 152518,
-            "source": {
-                "lat": 32.9,
-                "lng": 35.2833,
-                "name": "Karmiel"
-            },
-            "target": {
-                "lat": 31.89964,
-                "lng": 35.20422,
-                "name": "Ramallah"
-            }
-        },
-        {
-            "driving_cost": 184705,
-            "walking_cost": 176133,
-            "source": {
-                "lat": 32.9,
-                "lng": 35.2833,
-                "name": "Karmiel"
-            },
-            "target": {
-                "lat": 31.70487,
-                "lng": 35.20376,
-                "name": "Bethlehem"
-            }
-        },
-        {
-            "driving_cost": 207829,
-            "walking_cost": 164811,
+            "driving_cost": 197130,
+            "walking_cost": 175041,
             "source": {
                 "lat": 32.9,
                 "lng": 35.2833,
@@ -5165,8 +5298,8 @@
             }
         },
         {
-            "driving_cost": 101192,
-            "walking_cost": 94953,
+            "driving_cost": 104320,
+            "walking_cost": 92679,
             "source": {
                 "lat": 32.9,
                 "lng": 35.2833,
@@ -5179,8 +5312,8 @@
             }
         },
         {
-            "driving_cost": 117120,
-            "walking_cost": 107640,
+            "driving_cost": 26195,
+            "walking_cost": 11929,
             "source": {
                 "lat": 32.9,
                 "lng": 35.2833,
@@ -5193,8 +5326,8 @@
             }
         },
         {
-            "driving_cost": 171897,
-            "walking_cost": 150665,
+            "driving_cost": 165120,
+            "walking_cost": 144647,
             "source": {
                 "lat": 32.9,
                 "lng": 35.2833,
@@ -5204,6 +5337,62 @@
                 "lat": 31.91001,
                 "lng": 35.21645,
                 "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 164917,
+            "walking_cost": 166651,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 134796,
+            "walking_cost": 94180,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 79997,
+            "walking_cost": 71349,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 177928,
+            "walking_cost": 170115,
+            "source": {
+                "lat": 32.9,
+                "lng": 35.2833,
+                "name": "Karmiel"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
             }
         },
         {
@@ -5221,8 +5410,8 @@
             }
         },
         {
-            "driving_cost": 101991,
-            "walking_cost": 96313,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.7897,
                 "lng": 35.5247,
@@ -5235,8 +5424,8 @@
             }
         },
         {
-            "driving_cost": 36761,
-            "walking_cost": 33077,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.7897,
                 "lng": 35.5247,
@@ -5249,8 +5438,8 @@
             }
         },
         {
-            "driving_cost": 178744,
-            "walking_cost": 148871,
+            "driving_cost": 164917,
+            "walking_cost": 166651,
             "source": {
                 "lat": 32.7897,
                 "lng": 35.5247,
@@ -5260,6 +5449,20 @@
                 "lat": 31.78336,
                 "lng": 35.23388,
                 "name": "East Jerusalem"
+            }
+        },
+        {
+            "driving_cost": 129505,
+            "walking_cost": 94174,
+            "source": {
+                "lat": 32.7897,
+                "lng": 35.5247,
+                "name": "Tiberias"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
             }
         },
         {
@@ -5277,8 +5480,8 @@
             }
         },
         {
-            "driving_cost": 174046,
-            "walking_cost": 139161,
+            "driving_cost": 79997,
+            "walking_cost": 71349,
             "source": {
                 "lat": 32.7897,
                 "lng": 35.5247,
@@ -5291,8 +5494,8 @@
             }
         },
         {
-            "driving_cost": 187833,
-            "walking_cost": 158726,
+            "driving_cost": 177928,
+            "walking_cost": 170115,
             "source": {
                 "lat": 32.7897,
                 "lng": 35.5247,
@@ -5305,8 +5508,8 @@
             }
         },
         {
-            "driving_cost": 142054,
-            "walking_cost": 140430,
+            "driving_cost": 197130,
+            "walking_cost": 175041,
             "source": {
                 "lat": 32.7897,
                 "lng": 35.5247,
@@ -5319,8 +5522,8 @@
             }
         },
         {
-            "driving_cost": 182738,
-            "walking_cost": 168874,
+            "driving_cost": 179610,
+            "walking_cost": 182177,
             "source": {
                 "lat": 32.7897,
                 "lng": 35.5247,
@@ -5347,8 +5550,8 @@
             }
         },
         {
-            "driving_cost": 120248,
-            "walking_cost": 107677,
+            "driving_cost": 26195,
+            "walking_cost": 11929,
             "source": {
                 "lat": 32.7897,
                 "lng": 35.5247,
@@ -5361,8 +5564,8 @@
             }
         },
         {
-            "driving_cost": 175025,
-            "walking_cost": 137308,
+            "driving_cost": 165120,
+            "walking_cost": 144647,
             "source": {
                 "lat": 32.7897,
                 "lng": 35.5247,
@@ -5389,8 +5592,8 @@
             }
         },
         {
-            "driving_cost": 93176,
-            "walking_cost": 90636,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.2667,
                 "lng": 35.0,
@@ -5403,8 +5606,8 @@
             }
         },
         {
-            "driving_cost": 84696,
-            "walking_cost": 79576,
+            "driving_cost": 164917,
+            "walking_cost": 166651,
             "source": {
                 "lat": 32.2667,
                 "lng": 35.0,
@@ -5417,8 +5620,22 @@
             }
         },
         {
-            "driving_cost": 37827,
-            "walking_cost": 31447,
+            "driving_cost": 78958,
+            "walking_cost": 71317,
+            "source": {
+                "lat": 32.2667,
+                "lng": 35.0,
+                "name": "Et Taiyiba"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 134796,
+            "walking_cost": 94180,
             "source": {
                 "lat": 32.2667,
                 "lng": 35.0,
@@ -5432,7 +5649,7 @@
         },
         {
             "driving_cost": 79997,
-            "walking_cost": 71227,
+            "walking_cost": 71349,
             "source": {
                 "lat": 32.2667,
                 "lng": 35.0,
@@ -5445,8 +5662,8 @@
             }
         },
         {
-            "driving_cost": 93785,
-            "walking_cost": 88764,
+            "driving_cost": 177928,
+            "walking_cost": 170115,
             "source": {
                 "lat": 32.2667,
                 "lng": 35.0,
@@ -5459,8 +5676,8 @@
             }
         },
         {
-            "driving_cost": 116909,
-            "walking_cost": 104568,
+            "driving_cost": 197130,
+            "walking_cost": 175041,
             "source": {
                 "lat": 32.2667,
                 "lng": 35.0,
@@ -5473,8 +5690,8 @@
             }
         },
         {
-            "driving_cost": 88689,
-            "walking_cost": 87940,
+            "driving_cost": 179610,
+            "walking_cost": 182177,
             "source": {
                 "lat": 32.2667,
                 "lng": 35.0,
@@ -5487,8 +5704,8 @@
             }
         },
         {
-            "driving_cost": 7351,
-            "walking_cost": 7313,
+            "driving_cost": 104320,
+            "walking_cost": 92679,
             "source": {
                 "lat": 32.2667,
                 "lng": 35.0,
@@ -5501,7 +5718,7 @@
             }
         },
         {
-            "driving_cost": 26192,
+            "driving_cost": 26195,
             "walking_cost": 11929,
             "source": {
                 "lat": 32.2667,
@@ -5515,8 +5732,8 @@
             }
         },
         {
-            "driving_cost": 80976,
-            "walking_cost": 69272,
+            "driving_cost": 165120,
+            "walking_cost": 144647,
             "source": {
                 "lat": 32.2667,
                 "lng": 35.0,
@@ -5543,8 +5760,8 @@
             }
         },
         {
-            "driving_cost": 168839,
-            "walking_cost": 160260,
+            "driving_cost": 164917,
+            "walking_cost": 166651,
             "source": {
                 "lat": 32.8667,
                 "lng": 35.3,
@@ -5557,8 +5774,22 @@
             }
         },
         {
-            "driving_cost": 124891,
-            "walking_cost": 93217,
+            "driving_cost": 179257,
+            "walking_cost": 169783,
+            "source": {
+                "lat": 32.8667,
+                "lng": 35.3,
+                "name": "Sakhnin"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 134796,
+            "walking_cost": 94180,
             "source": {
                 "lat": 32.8667,
                 "lng": 35.3,
@@ -5571,8 +5802,8 @@
             }
         },
         {
-            "driving_cost": 164140,
-            "walking_cost": 146500,
+            "driving_cost": 79997,
+            "walking_cost": 71349,
             "source": {
                 "lat": 32.8667,
                 "lng": 35.3,
@@ -5599,8 +5830,8 @@
             }
         },
         {
-            "driving_cost": 201052,
-            "walking_cost": 158935,
+            "driving_cost": 197130,
+            "walking_cost": 175041,
             "source": {
                 "lat": 32.8667,
                 "lng": 35.3,
@@ -5613,8 +5844,8 @@
             }
         },
         {
-            "driving_cost": 172832,
-            "walking_cost": 176420,
+            "driving_cost": 179610,
+            "walking_cost": 182177,
             "source": {
                 "lat": 32.8667,
                 "lng": 35.3,
@@ -5627,8 +5858,8 @@
             }
         },
         {
-            "driving_cost": 94415,
-            "walking_cost": 87949,
+            "driving_cost": 104320,
+            "walking_cost": 92679,
             "source": {
                 "lat": 32.8667,
                 "lng": 35.3,
@@ -5641,8 +5872,8 @@
             }
         },
         {
-            "driving_cost": 110342,
-            "walking_cost": 101883,
+            "driving_cost": 26195,
+            "walking_cost": 11929,
             "source": {
                 "lat": 32.8667,
                 "lng": 35.3,
@@ -5683,8 +5914,22 @@
             }
         },
         {
-            "driving_cost": 120215,
-            "walking_cost": 67847,
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.78336,
+                "lng": 35.23388,
+                "name": "East Jerusalem"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.78336,
                 "lng": 35.23388,
@@ -5697,8 +5942,8 @@
             }
         },
         {
-            "driving_cost": 16667,
-            "walking_cost": 14986,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.78336,
                 "lng": 35.23388,
@@ -5711,8 +5956,8 @@
             }
         },
         {
-            "driving_cost": 17110,
-            "walking_cost": 10299,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.78336,
                 "lng": 35.23388,
@@ -5739,8 +5984,8 @@
             }
         },
         {
-            "driving_cost": 24723,
-            "walking_cost": 20446,
+            "driving_cost": 34911,
+            "walking_cost": 34154,
             "source": {
                 "lat": 31.78336,
                 "lng": 35.23388,
@@ -5753,8 +5998,8 @@
             }
         },
         {
-            "driving_cost": 89738,
-            "walking_cost": 86309,
+            "driving_cost": 33397,
+            "walking_cost": 32517,
             "source": {
                 "lat": 31.78336,
                 "lng": 35.23388,
@@ -5767,8 +6012,8 @@
             }
         },
         {
-            "driving_cost": 82111,
-            "walking_cost": 75768,
+            "driving_cost": 78128,
+            "walking_cost": 67451,
             "source": {
                 "lat": 31.78336,
                 "lng": 35.23388,
@@ -5781,12 +6026,124 @@
             }
         },
         {
-            "driving_cost": 17647,
-            "walking_cost": 16250,
+            "driving_cost": 29490,
+            "walking_cost": 26140,
             "source": {
                 "lat": 31.78336,
                 "lng": 35.23388,
                 "name": "East Jerusalem"
+            },
+            "target": {
+                "lat": 31.91001,
+                "lng": 35.21645,
+                "name": "Al Bira"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 32.22111,
+                "lng": 35.25444,
+                "name": "Nablus"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 31.89964,
+                "lng": 35.20422,
+                "name": "Ramallah"
+            }
+        },
+        {
+            "driving_cost": 0,
+            "walking_cost": 0,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 31.70487,
+                "lng": 35.20376,
+                "name": "Bethlehem"
+            }
+        },
+        {
+            "driving_cost": 34599,
+            "walking_cost": 33997,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 31.86667,
+                "lng": 35.45,
+                "name": "Jericho"
+            }
+        },
+        {
+            "driving_cost": 33397,
+            "walking_cost": 32517,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 32.31156,
+                "lng": 35.0269,
+                "name": "Tulkarm"
+            }
+        },
+        {
+            "driving_cost": 78128,
+            "walking_cost": 67451,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
+            },
+            "target": {
+                "lat": 32.18966,
+                "lng": 34.97063,
+                "name": "Qalkilya"
+            }
+        },
+        {
+            "driving_cost": 29490,
+            "walking_cost": 26140,
+            "source": {
+                "lat": 31.52935,
+                "lng": 35.0938,
+                "name": "Hebron"
             },
             "target": {
                 "lat": 31.91001,
@@ -5809,8 +6166,8 @@
             }
         },
         {
-            "driving_cost": 73910,
-            "walking_cost": 54343,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.22111,
                 "lng": 35.25444,
@@ -5823,8 +6180,8 @@
             }
         },
         {
-            "driving_cost": 123923,
-            "walking_cost": 77958,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.22111,
                 "lng": 35.25444,
@@ -5837,8 +6194,8 @@
             }
         },
         {
-            "driving_cost": 109281,
-            "walking_cost": 88057,
+            "driving_cost": 34599,
+            "walking_cost": 33997,
             "source": {
                 "lat": 32.22111,
                 "lng": 35.25444,
@@ -5851,8 +6208,8 @@
             }
         },
         {
-            "driving_cost": 118828,
-            "walking_cost": 88106,
+            "driving_cost": 38984,
+            "walking_cost": 32517,
             "source": {
                 "lat": 32.22111,
                 "lng": 35.25444,
@@ -5879,8 +6236,8 @@
             }
         },
         {
-            "driving_cost": 43733,
-            "walking_cost": 41791,
+            "driving_cost": 78128,
+            "walking_cost": 67451,
             "source": {
                 "lat": 32.22111,
                 "lng": 35.25444,
@@ -5893,8 +6250,8 @@
             }
         },
         {
-            "driving_cost": 71679,
-            "walking_cost": 52491,
+            "driving_cost": 29490,
+            "walking_cost": 26140,
             "source": {
                 "lat": 32.22111,
                 "lng": 35.25444,
@@ -5921,8 +6278,8 @@
             }
         },
         {
-            "driving_cost": 27542,
-            "walking_cost": 24939,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.89964,
                 "lng": 35.20422,
@@ -5935,8 +6292,8 @@
             }
         },
         {
-            "driving_cost": 47119,
-            "walking_cost": 39903,
+            "driving_cost": 34599,
+            "walking_cost": 33997,
             "source": {
                 "lat": 31.89964,
                 "lng": 35.20422,
@@ -5949,8 +6306,8 @@
             }
         },
         {
-            "driving_cost": 34886,
-            "walking_cost": 35087,
+            "driving_cost": 76679,
+            "walking_cost": 67465,
             "source": {
                 "lat": 31.89964,
                 "lng": 35.20422,
@@ -5963,8 +6320,8 @@
             }
         },
         {
-            "driving_cost": 83069,
-            "walking_cost": 77992,
+            "driving_cost": 33397,
+            "walking_cost": 32517,
             "source": {
                 "lat": 31.89964,
                 "lng": 35.20422,
@@ -5977,7 +6334,7 @@
             }
         },
         {
-            "driving_cost": 76809,
+            "driving_cost": 78128,
             "walking_cost": 67451,
             "source": {
                 "lat": 31.89964,
@@ -5991,8 +6348,8 @@
             }
         },
         {
-            "driving_cost": 2039,
-            "walking_cost": 2135,
+            "driving_cost": 29490,
+            "walking_cost": 26140,
             "source": {
                 "lat": 31.89964,
                 "lng": 35.20422,
@@ -6019,8 +6376,8 @@
             }
         },
         {
-            "driving_cost": 50890,
-            "walking_cost": 44300,
+            "driving_cost": 34599,
+            "walking_cost": 33997,
             "source": {
                 "lat": 31.70487,
                 "lng": 35.20376,
@@ -6033,8 +6390,8 @@
             }
         },
         {
-            "driving_cost": 14238,
-            "walking_cost": 11075,
+            "driving_cost": 29491,
+            "walking_cost": 26249,
             "source": {
                 "lat": 31.70487,
                 "lng": 35.20376,
@@ -6047,8 +6404,8 @@
             }
         },
         {
-            "driving_cost": 98214,
-            "walking_cost": 95490,
+            "driving_cost": 33397,
+            "walking_cost": 32517,
             "source": {
                 "lat": 31.70487,
                 "lng": 35.20376,
@@ -6061,8 +6418,8 @@
             }
         },
         {
-            "driving_cost": 90587,
-            "walking_cost": 84950,
+            "driving_cost": 78128,
+            "walking_cost": 67451,
             "source": {
                 "lat": 31.70487,
                 "lng": 35.20376,
@@ -6103,8 +6460,8 @@
             }
         },
         {
-            "driving_cost": 58050,
-            "walking_cost": 54604,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.86667,
                 "lng": 35.45,
@@ -6117,8 +6474,8 @@
             }
         },
         {
-            "driving_cost": 122592,
-            "walking_cost": 111451,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.86667,
                 "lng": 35.45,
@@ -6131,8 +6488,8 @@
             }
         },
         {
-            "driving_cost": 114965,
-            "walking_cost": 100910,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.86667,
                 "lng": 35.45,
@@ -6145,8 +6502,8 @@
             }
         },
         {
-            "driving_cost": 58028,
-            "walking_cost": 41236,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.86667,
                 "lng": 35.45,
@@ -6173,8 +6530,8 @@
             }
         },
         {
-            "driving_cost": 94078,
-            "walking_cost": 94928,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.7,
                 "lng": 35.11667,
@@ -6187,8 +6544,8 @@
             }
         },
         {
-            "driving_cost": 86451,
-            "walking_cost": 85318,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.7,
                 "lng": 35.11667,
@@ -6201,8 +6558,8 @@
             }
         },
         {
-            "driving_cost": 36638,
-            "walking_cost": 36287,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 31.7,
                 "lng": 35.11667,
@@ -6229,8 +6586,8 @@
             }
         },
         {
-            "driving_cost": 53247,
-            "walking_cost": 18687,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.31156,
                 "lng": 35.0269,
@@ -6243,8 +6600,8 @@
             }
         },
         {
-            "driving_cost": 81193,
-            "walking_cost": 76070,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.31156,
                 "lng": 35.0269,
@@ -6271,8 +6628,8 @@
             }
         },
         {
-            "driving_cost": 77658,
-            "walking_cost": 65510,
+            "driving_cost": 0,
+            "walking_cost": 0,
             "source": {
                 "lat": 32.18966,
                 "lng": 34.97063,

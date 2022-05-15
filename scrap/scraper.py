@@ -65,12 +65,12 @@ def get_distance(src_cities: List[City], dest_cities: List[City]):
         j = 0
         for j in range(len(walk_row["elements"])):
             
-            walk_element = walk_row["elements"][i]
-            drive_element = drive_row["elements"][i]
+            walk_element = walk_row["elements"][j]
+            drive_element = drive_row["elements"][j]
             
             try:
                 g.add_edge(src_cities[i], dest_cities[j], driving_cost = drive_element["distance"]["value"], walking_cost=walk_element["distance"]["value"])
-                print(f"Edge added between src: {src_cities[i].name} and dest: {dest_cities[j].name}")
+                print(f'Edge added between src: {src_cities[i].name} and dest: {dest_cities[j].name} \n\t walking={walk_element["distance"]["value"]}\t driving={drive_element["distance"]["value"]}')
             except KeyError as k:
                 print(f"\n\n -- Key Error between src: {src_cities[i].name} and dest: {dest_cities[j].name}, walk_response={walking_response.text},  drive_response={driving_response.text}\n\n\n")
             

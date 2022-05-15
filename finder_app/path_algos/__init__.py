@@ -194,3 +194,11 @@ def BFS(G, source, destination):
             push(fringe, (next(c), child, current_node))
 
     raise NoRouteException()
+
+def zero():
+    ''' returns always zero, used as heuristic for a star to be uniform cost '''
+    return 0
+
+def UCS(G, source, destination, mode="driving_cost"):
+    
+    return astar_path( g=G, source=source, destination=destination, heuristic=zero, mode=mode )

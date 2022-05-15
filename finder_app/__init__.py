@@ -1,7 +1,7 @@
 ''' app factory '''
 
 from os import environ
-from flask import Flask
+from flask import Flask, g
 from .config import Config, config_modes
 from .patches import wtforms_json
 
