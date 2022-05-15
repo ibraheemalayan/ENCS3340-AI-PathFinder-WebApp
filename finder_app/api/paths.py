@@ -10,14 +10,8 @@ from . import main_blueprint
 import networkx as nx
 
 #### TODOs
-# * select algorithim
-# * view nodes on map - done
-# * view path on map
-# * select edge limit slider (and provide explanation)
-# * select heuristic (walking, arial)
-# * implement UCS as bounus by setting heuristic to zero
 # * deploy to encs3340.unv.ibraheemalyan.dev or proj1.encs3340.unv.ibraheemalyan.dev
-# * heuristic table ( as a pop up or another page )
+# * fix BFS
 
 from flask_wtf.form import FlaskForm
 from wtforms.widgets import NumberInput
@@ -119,7 +113,7 @@ def get_path():
     
                 if (
                     algo_form.heuristic.data == "walking_heuristic"
-                    and algo_form.weight.data == ""
+                    and algo_form.weight.data == "aerial_cost"
                 ):
                     return json_res(
                         code=406,
@@ -172,14 +166,17 @@ def get_path():
                 # heuristic doesn't matter
     
                 path = UCS(
-                    g.Gg,
+                    g.G,
                     source=algo_form.src_city.data,
                     destination=algo_form.dest_city.data,
                     mode=algo_form.weight.data,
                 )
                 
         except NoRouteException:
-            return json_res(code=404, error="No Path Found")
+            
+            if algo_form.algo.data == "greedy":
+                return json_res(code=508, msg="Greedy search did not find the path after 100k iterations")
+            return json_res(code=404, msg="No Path Found")
 
         
         mode = dict(algo_form.weight.choices)[algo_form.weight.data]
@@ -187,15 +184,21 @@ def get_path():
 
         # heuristic_table
         
-        heuristic_table = []
+        
+        
+        if algo_form.algo.data == "astar" or algo_form.algo.data == "greedy":
+            
+            heuristic_table = []
 
-        for city in g.city_dict.keys():
-            heuristic_table.append(
-                {
-                    "city_name": city,
-                    "value": round(heuristic(city, algo_form.dest_city.data))
-                }
-            )
+            for city in g.city_dict.keys():
+                heuristic_table.append(
+                    {
+                        "city_name": city,
+                        "value": round(heuristic(city, algo_form.dest_city.data))
+                    }
+                )
+        else:
+            heuristic_table = 0
 
         path_driving_accumlated_cost, path_driving_step_costs = path_length(g.G, path=path, mode="driving_cost")
         path_walking_accumlated_cost, path_walking_step_costs = path_length(g.G, path=path, mode="walking_cost")

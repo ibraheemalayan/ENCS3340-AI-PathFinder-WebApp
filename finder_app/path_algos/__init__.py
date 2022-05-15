@@ -1,7 +1,10 @@
 from heapq import heappush, heappop
 from itertools import count
+import pdb
+from time import sleep
 from typing import Dict, Tuple
 import networkx as nx
+from finder_app.path_algos.heuristics import zero_heruistic
 from finder_app.path_algos.models import NoRouteException
 from networkx.algorithms.shortest_paths.weighted import _weight_function
 
@@ -104,17 +107,26 @@ def greedy(G, source, destination, heuristic=None):
     # replace push and pop with heap pop and push, so we can use a priority queue
     push = heappush
     pop = heappop
+    
     # use iterator to count
     c = count()
     fringe = [(0, next(c), source, None)]
     
-    # dict holding heuristic and lowest cost to reach from src, with key being node name
+    # dict holding heuristic values, with key being node name
     enqueued = {}
     
     # dict holding the parent of explored nodes, with key being node name
     explored = {}
+    
+    max_iterations = 100000
+    iters = 0
 
     while fringe:
+        
+        if iters > max_iterations:
+            break
+        iters += 1
+        
         _, __, current_node, parent = pop(fringe)
 
         if current_node == destination:
@@ -162,18 +174,27 @@ def BFS(G, source, destination):
     
     # use iterator to count
     c = count()
+    
+    #      [iteration, node, parent node]
     fringe = [(next(c), source, None)]
     
     # dict holding the parent of explored nodes, with key being node name
     explored = {}
-
+    
     while fringe:
-        __, current_node, parent = pop(fringe)
+        
+        current_c, current_node, parent = pop(fringe)
 
         if current_node == destination:
+            print("Found Destination")
+            print("explored")
+            print(explored)
+            
             path = [current_node]
             node = parent
             while node is not None:
+                sleep(0.5)
+                print(f"Going Back In Path, node={node}")
                 # go from parent to parent until we reach the starting node
                 path.append(node)
                 node = explored[node]
@@ -184,21 +205,41 @@ def BFS(G, source, destination):
             # this condition means that the node is the src node
             if explored[current_node] is None:
                 continue
-        # get the parent of the current node
+            
+        
+        # save the parent of the current node
+        
+        
+        
+        if parent in explored:
+            
+            # avoid loops in parents
+            if current_node == explored[parent]:
+                continue
+            
+            sleep(0.001)
+            print(f"{current_c} Parent Of {current_node}:{parent}\t which has parent {explored[parent]}")
+        
         explored[current_node] = parent
-
-        for child, w in G[current_node].items():
-            # write new shorter path to reach this node
+        
+        for child, ____ in G[current_node].items():
+            
+            if child in explored:
+                continue
+            
+            # skip loops
+            if child == current_node or child == parent or (parent in explored and explored[parent] == child):
+                continue
+            
+            
+            
             # push the produced values into the priority queue
             # [iteration, node, parent node]
             push(fringe, (next(c), child, current_node))
 
     raise NoRouteException()
 
-def zero():
-    ''' returns always zero, used as heuristic for a star to be uniform cost '''
-    return 0
 
 def UCS(G, source, destination, mode="driving_cost"):
     
-    return astar_path( g=G, source=source, destination=destination, heuristic=zero, mode=mode )
+    return astar_path( g=G, source=source, destination=destination, heuristic=zero_heruistic, mode=mode )

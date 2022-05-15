@@ -30,7 +30,12 @@ def straight_line_distance(  src_city_name , goal_city_name ):
 def walking_distance(src_city_name , goal_city_name):
     ''' takes city names and returns the walking distance between them using the data returned by google maps matrix API '''
         
-    src = g.city_dict[src_city_name]
-    goal = g.city_dict[goal_city_name]
+    from . import astar_path, path_length
+    
+    path = astar_path(g.full_g, source=src_city_name, destination=goal_city_name, heuristic=straight_line_distance, mode="walking_cost")
+    
+    return path_length(g.full_g, path=path, mode="walking_cost")[0]
 
-    return g.full_g[src][goal]["walking_distance"]
+def zero_heruistic(src, dest):
+    ''' used to make the A star act like a UCS '''
+    return 0 

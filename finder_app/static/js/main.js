@@ -82,11 +82,11 @@ function render(data) {
 
 function update_edges(cost_limit) {
 
-  for( const line_dict of lines ){
+  for (const line_dict of lines) {
 
-    if (line_dict.cost > cost_limit * 1000){
+    if (line_dict.cost > cost_limit * 1000) {
       line_dict.line_obj.setMap(null);
-    }else{
+    } else {
       line_dict.line_obj.setMap(window.map);
     }
 
@@ -171,20 +171,17 @@ function OpenPathPopUp() {
   const xhr = new XMLHttpRequest();
   var FD = new FormData(path_form);
 
-  for (var [key, value] of FD.entries()) {
-    console.log(key, value);
-  }
-
   // Define what happens on successful data submission
   xhr.addEventListener('load', function (event) {
 
+    remove_old_path();
 
     if (xhr.status == 400) { // analyze HTTP status of the response
 
       json_res = JSON.parse(this.responseText);
 
       var alert_text = 'Invalid Input\n\n';
-      for (err of json_res.errors) {
+      for (const err of json_res.errors) {
         alert_text += "\t• " + err.name + ": " + err.error + "\n";
       }
       alert_text += "\n";
@@ -205,13 +202,11 @@ function OpenPathPopUp() {
       json_res = JSON.parse(this.responseText);
       view_path_in_pop_up(json_res);
       return;
-    } else if (xhr.status == 404) { // show the result
+    } else if (xhr.status == 404 || xhr.status == 406 || xhr.status == 508) { // show the result
 
-        alert("No path found between source and destination !");
-
+      alert(JSON.parse(this.responseText).msg);
       return;
     }
-
     alert(xhr.responseText)
   });
 
@@ -241,21 +236,21 @@ function view_path_in_pop_up(json_response) {
   document.getElementById("other_cost_2_name").innerHTML = json_response.other_cost_2_name;
   document.getElementById("other_cost_2_value").innerHTML = json_response.other_cost_2_value;
 
-  var p = document.getElementById("path_data");
+  var p_d = document.getElementById("path_data");
 
-  p.innerHTML = "";
+  p_d.innerHTML = "";
   var i = 0
   for (const point of json_response.path) {
     var path_point = document.createElement("div");
     path_point.innerHTML = point;
     path_point.classList.add("path_point");
 
-    p.appendChild(path_point);
+    p_d.appendChild(path_point);
 
     if (i < json_response.path.length - 1) {
       var step_cost = document.createElement("div");
-      step_cost.innerHTML = json_response.steps_costs[i];
-      p.appendChild(step_cost);
+      step_cost.innerHTML = json_response.steps_costs[i] + " m";
+      p_d.appendChild(step_cost);
     }
 
     i++;
@@ -264,6 +259,11 @@ function view_path_in_pop_up(json_response) {
 }
 
 function heuristic_table() {
+
+  if (window.latest_response.heuristic_table == 0) {
+    alert("No Heuristic Was Used");
+    return;
+  }
 
   var alert_text = 'Heuristic Values: \n\n';
 
@@ -274,6 +274,7 @@ function heuristic_table() {
   alert_text += "\n";
 
   alert(alert_text);
+  return;
 
 }
 
@@ -282,17 +283,11 @@ var p = document.getElementById("path_pop_up");
 var close = document.getElementById("close_path");
 
 close.onclick = function () {
-  p.style.display = "none";
+  window.p.style.display = "none";
   window.pop_up_cont.style.display = "none";
-  document.getElementById("myModal");
   document.getElementById("map").classList.remove("blur");
 }
 
-window.onclick = function (event) {
-  if (event.target == p) {
-    p.style.display = "none";
-  }
-}
 
 var slider = document.getElementById("cost_limit_slider");
 var output = document.getElementById("cost_limit_label");
@@ -306,11 +301,16 @@ slider.oninput = function () {
 
 var path_line;
 
-function plot_path() {
+function remove_old_path() {
 
-  if (!(path_line === undefined)){
+  if (!(path_line === undefined)) {
     path_line.setMap(null);
   }
+
+}
+function plot_path() {
+
+  remove_old_path();
 
   p.style.display = "none";
   window.pop_up_cont.style.display = "none";
@@ -322,7 +322,7 @@ function plot_path() {
   for (const city of window.latest_response.path) {
     path_coords.push(window.city_dict[city]);
   }
-  
+
   path_line = new google.maps.Polyline({
     path: path_coords,
     geodesic: true,
