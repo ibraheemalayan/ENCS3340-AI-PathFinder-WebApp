@@ -1,6 +1,6 @@
 import sys, os
 
-sys.path.insert(0, ".")
+sys.path.insert(0, "/var/www/ENCS3340-AI-PathFinder-WebApp")
 
 from finder_app import create_app
 
