@@ -4,6 +4,22 @@ var current_id = null;
 var lines = [];
 
 
+var shake_animation = [
+  { transform: 'translateX(0)' },
+  { transform: 'translateX(5px)' },
+  { transform: 'translateX(10px)' },
+  { transform: 'translateX(0px)' },
+  { transform: 'translateX(-10px)' },
+  { transform: 'translateX(-5px)' },
+  { transform: 'translateX(0)' },
+];
+
+var shake_timing = {
+  duration: 500,
+  iterations: 1,
+}
+
+
 var pop_up_cont = document.getElementById("pop_up_cont");
 
 function render(data) {
@@ -104,20 +120,7 @@ function initMap() {
 
 function marker_clicked(marker_name) {
 
-  const shake_animation = [
-    { transform: 'translateX(0)' },
-    { transform: 'translateX(5px)' },
-    { transform: 'translateX(10px)' },
-    { transform: 'translateX(0px)' },
-    { transform: 'translateX(-10px)' },
-    { transform: 'translateX(-5px)' },
-    { transform: 'translateX(0)' },
-  ];
-
-  const shake_timing = {
-    duration: 500,
-    iterations: 1,
-  }
+  
 
 
   src_city_label = document.getElementById("src_city");
@@ -142,18 +145,22 @@ function marker_clicked(marker_name) {
     window.selected_nodes.push(marker_name);
   } else {
 
-    if (dest_city_label.value == marker_name) {
-      dest_city_label.value = "";
-      window.selected_nodes = [window.selected_nodes[0]];
+    let dest_cities = dest_city_label.value.split(", ");
+
+    if (dest_cities[dest_cities.length - 1] == marker_name) {
+
+      dest_cities.pop();
+      window.selected_nodes.pop(); 
+
+      dest_city_label.value = dest_cities.join(", ");
       dest_city_label.animate(shake_animation, shake_timing);
       return;
     }
-
-    window.selected_nodes[0] = window.selected_nodes[1]
-    window.selected_nodes[1] = marker_name;
+    dest_cities.push(marker_name);
+    window.selected_nodes.push(marker_name)
 
     src_city_label.value = window.selected_nodes[0];
-    dest_city_label.value = window.selected_nodes[1];
+    dest_city_label.value = dest_cities.join(", ");
 
     src_city_label.animate(shake_animation, shake_timing);
     dest_city_label.animate(shake_animation, shake_timing);
@@ -265,7 +272,7 @@ function heuristic_table() {
     return;
   }
 
-  var alert_text = 'Heuristic Values: \n\n';
+  var alert_text = 'Heuristic Values For Last Goal: \n\n';
 
   for (const entry of window.latest_response.heuristic_table) {
     alert_text += "\t• " + entry.city_name + ": " + entry.value + "m\n";
@@ -332,5 +339,22 @@ function plot_path() {
   });
 
   path_line.setMap(window.map);
+
+}
+
+function ClearCities(){
+
+  remove_old_path();
+  window.selected_nodes = [];
+
+  src_city_label = document.getElementById("src_city");
+  dest_city_label = document.getElementById("dest_city");
+
+  src_city_label.value = "";
+  dest_city_label.value = "";
+  
+
+  src_city_label.animate(shake_animation, shake_timing);
+  dest_city_label.animate(shake_animation, shake_timing);
 
 }

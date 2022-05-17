@@ -18,13 +18,12 @@ from wtforms.widgets import NumberInput
 from wtforms.fields import RadioField, StringField, IntegerField
 from wtforms.validators import DataRequired, Length
 
-
 class AlgorithimForm(FlaskForm):
     """algorithim properties form"""
 
     src_city = StringField("Source City", validators=[DataRequired(), Length(1, 32)])
-    dest_city = StringField(
-        "Destination City", validators=[DataRequired(), Length(1, 32)]
+    dest_cities = StringField(
+        "Destination Cities", validators=[DataRequired(), Length(1, 256)]
     )
 
     algo = RadioField(
@@ -59,6 +58,75 @@ class AlgorithimForm(FlaskForm):
     cost_limit = IntegerField("Cost Limit", validators=[DataRequired()], default=70) # km
 
 
+def choose_algo_get_path(algo_form: AlgorithimForm, src_city, dest_city):
+    
+    path, heuristic = None, None
+    
+    if algo_form.algo.data == "astar":
+    
+        if (
+            algo_form.heuristic.data == "walking_heuristic"
+            and algo_form.weight.data == "aerial_cost"
+        ):
+            return json_res(
+                code=406,
+                msg="Illegal options, walking distance is not an admissible heuristic when the cost is aerial distance",
+            )
+
+        heuristic = (
+            straight_line_distance
+            if algo_form.heuristic.data == "aerial_heuristic"
+            else walking_distance
+        )
+
+        path = astar_path(
+            g.G,
+            source=src_city,
+            destination=dest_city,
+            heuristic=heuristic,
+            mode=algo_form.weight.data,
+        )
+
+    elif algo_form.algo.data == "bfs":
+
+        # mode and heuristic don't matter
+
+        path = BFS(
+            g.G,
+            source=src_city,
+            destination=dest_city,
+        )
+
+    elif algo_form.algo.data == "greedy":
+
+        # mode doesn't matter
+
+        heuristic = (
+            straight_line_distance
+            if algo_form.heuristic.data == "aerial_heuristic"
+            else walking_distance
+        )
+
+        path = greedy(
+            g.G,
+            source=src_city,
+            destination=dest_city,
+            heuristic=heuristic,
+        )
+
+    else:
+        # UCS
+        # heuristic doesn't matter
+
+        path = UCS(
+            g.G,
+            source=src_city,
+            destination=dest_city,
+            mode=algo_form.weight.data,
+        )
+        
+    return path, heuristic
+
 @main_blueprint.route("/load_graph/<int:cost_limit>")
 @main_blueprint.route("/load_graph")
 def load_graph(cost_limit=None):
@@ -83,8 +151,6 @@ def load_graph(cost_limit=None):
 @main_blueprint.route("/get_path", methods=["POST"])
 def get_path():
 
-    
-
     algo_form: AlgorithimForm = AlgorithimForm()
 
     if algo_form.validate():
@@ -95,82 +161,40 @@ def get_path():
         g.G, g.city_dict, g.full_g = load_graph_and_cities(
             cost_limit=g.cost_limit
         )
+        
+        goals = algo_form.dest_cities.data.split(", ")
+        
+        for dest_city in goals :
+            if dest_city not in g.city_dict:
+                return json_res(
+                code=404,
+                error="a destination city was not found in the data set",
+            )
 
         if (
-            algo_form.dest_city.data not in g.city_dict
-            or algo_form.src_city.data not in g.city_dict
+            algo_form.src_city.data not in g.city_dict
         ):
             return json_res(
                 code=404,
-                error="destination or source city was not found in the data set",
+                error="the source city was not found in the data set",
             )
 
-        path = None
+        path, heuristic = [], None
+        
+        src_city = algo_form.src_city.data
         
         try:
-
-            if algo_form.algo.data == "astar":
-    
-                if (
-                    algo_form.heuristic.data == "walking_heuristic"
-                    and algo_form.weight.data == "aerial_cost"
-                ):
-                    return json_res(
-                        code=406,
-                        msg="Illegal options, walking distance is not an admissible heuristic when the cost is aerial distance",
-                    )
-    
-                heuristic = (
-                    straight_line_distance
-                    if algo_form.heuristic.data == "aerial_heuristic"
-                    else walking_distance
-                )
-    
-                path = astar_path(
-                    g.G,
-                    source=algo_form.src_city.data,
-                    destination=algo_form.dest_city.data,
-                    heuristic=heuristic,
-                    mode=algo_form.weight.data,
-                )
-    
-            elif algo_form.algo.data == "bfs":
-    
-                # mode and heuristic don't matter
-    
-                path = BFS(
-                    g.G,
-                    source=algo_form.src_city.data,
-                    destination=algo_form.dest_city.data,
-                )
-    
-            elif algo_form.algo.data == "greedy":
-    
-                # mode doesn't matter
-    
-                heuristic = (
-                    straight_line_distance
-                    if algo_form.heuristic.data == "aerial_heuristic"
-                    else walking_distance
-                )
-    
-                path = greedy(
-                    g.G,
-                    source=algo_form.src_city.data,
-                    destination=algo_form.dest_city.data,
-                    heuristic=heuristic,
-                )
-    
-            else:
-                # UCS
-                # heuristic doesn't matter
-    
-                path = UCS(
-                    g.G,
-                    source=algo_form.src_city.data,
-                    destination=algo_form.dest_city.data,
-                    mode=algo_form.weight.data,
-                )
+            
+            for dest_city in goals:
+                
+                if len(path) > 0:
+                    path.pop() # remove duplicated city
+                
+                
+                temp_path, heuristic = choose_algo_get_path(algo_form, src_city, dest_city)
+                path.extend(temp_path)
+                
+                src_city = dest_city
                 
         except NoRouteException:
             
@@ -181,11 +205,10 @@ def get_path():
         
         mode = dict(algo_form.weight.choices)[algo_form.weight.data]
         algo = algo_form.algo.label.text
+        
+        goal_city = goals[-1]
 
         # heuristic_table
-        
-        
-        
         if algo_form.algo.data == "astar" or algo_form.algo.data == "greedy":
             
             heuristic_table = []
@@ -194,11 +217,12 @@ def get_path():
                 heuristic_table.append(
                     {
                         "city_name": city,
-                        "value": round(heuristic(city, algo_form.dest_city.data))
+                        "value": round(heuristic(city, goal_city))
                     }
                 )
         else:
             heuristic_table = 0
+            
 
         path_driving_accumlated_cost, path_driving_step_costs = path_length(g.G, path=path, mode="driving_cost")
         path_walking_accumlated_cost, path_walking_step_costs = path_length(g.G, path=path, mode="walking_cost")

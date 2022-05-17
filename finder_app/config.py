@@ -24,7 +24,7 @@ class Config:
 
 class DevelopmentConfig(Config):
 
-    SERVER_NAME = "localhost:9090"
+    SERVER_NAME = "localhost:9000"
     DOMAIN_NAME = "localhost"
 
     DEBUG = True

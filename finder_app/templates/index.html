@@ -35,7 +35,7 @@
         <small>controls the graph density (eleminate all edges above the limit)</small>
 
         <p><span class="bold">Source</span><br><input name="src_city" id="src_city" class="tf" type="text" readonly="readonly"></p>
-        <p><span class="bold">Destination</span><br><input name="dest_city" id="dest_city" class="tf" type="text" readonly="readonly"></p>
+        <p><span class="bold">Destination</span><br><input name="dest_cities" id="dest_city" class="tf" type="text" readonly="readonly"></p>
 
         <p class="bold">Algorithim</p>
 
@@ -74,7 +74,12 @@
 
       </form>
 
-      <button class="btn btn-dark mt-2" onclick="OpenPathPopUp()">Generate Path</button>
+      <div class="btn_cont">
+        <button class="btn btn-dark mt-2 mr-2" onclick="OpenPathPopUp()">Generate Path</button>
+        <button class="btn btn-light mt-2 ml-2" onclick="ClearCities()">Clear</button>
+      </div>
+
+      
 
     </div>
 

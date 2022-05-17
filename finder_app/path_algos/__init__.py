@@ -1,14 +1,12 @@
 from heapq import heappush, heappop
 from itertools import count
-import pdb
-from time import sleep
 from typing import Dict, Tuple
 import networkx as nx
 from finder_app.path_algos.heuristics import zero_heruistic
 from finder_app.path_algos.models import NoRouteException
 from networkx.algorithms.shortest_paths.weighted import _weight_function
 
-__all__ = ["path_length", "astar_path", "greedy", "BFS"]
+__all__ = ["path_length", "astar_path", "greedy", "BFS", "UCS"]
 
 def path_length(g, path, mode="driving_cost"):
     
@@ -175,28 +173,25 @@ def BFS(G, source, destination):
     # use iterator to count
     c = count()
     
-    #      [iteration, node, parent node]
-    fringe = [(next(c), source, None)]
+    
+    
+    #      [ (iteration, node), parent node]
+    fringe = [((next(c), source), None)]
     
     # dict holding the parent of explored nodes, with key being node name
     explored = {}
     
     while fringe:
         
-        current_c, current_node, parent = pop(fringe)
+        current_node, parent = pop(fringe)
 
-        if current_node == destination:
-            print("Found Destination")
-            print("explored")
-            print(explored)
+        if current_node[1] == destination:
             
-            path = [current_node]
+            path = [current_node[1]]
             node = parent
             while node is not None:
-                sleep(0.5)
-                print(f"Going Back In Path, node={node}")
                 # go from parent to parent until we reach the starting node
-                path.append(node)
+                path.append(node[1])
                 node = explored[node]
             path.reverse()
             return path
@@ -205,40 +200,17 @@ def BFS(G, source, destination):
             # this condition means that the node is the src node
             if explored[current_node] is None:
                 continue
-            
         
         # save the parent of the current node
-        
-        
-        
-        if parent in explored:
-            
-            # avoid loops in parents
-            if current_node == explored[parent]:
-                continue
-            
-            sleep(0.001)
-            print(f"{current_c} Parent Of {current_node}:{parent}\t which has parent {explored[parent]}")
-        
         explored[current_node] = parent
         
-        for child, ____ in G[current_node].items():
-            
-            if child in explored:
-                continue
-            
-            # skip loops
-            if child == current_node or child == parent or (parent in explored and explored[parent] == child):
-                continue
-            
-            
+        for child, ____ in G[current_node[1]].items():
             
             # push the produced values into the priority queue
             # [iteration, node, parent node]
-            push(fringe, (next(c), child, current_node))
+            push(fringe, ((next(c), child), current_node))
 
     raise NoRouteException()
-
 
 def UCS(G, source, destination, mode="driving_cost"):
     
