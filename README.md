@@ -29,7 +29,9 @@
 
 Google maps distance matrix api, see the [scrap/scraper.py](scrap/scraper.py) that was used to get the data
 
-## Installtion
+## Deployed Website [p1.encs3340.unv.ibraheemalyan.dev](https://p1.encs3340.unv.ibraheemalyan.dev/)
+
+## Local Installtion
 
 * Install **Python** >= 3.9 (must support typing syntax)
 * Install **python pip**
