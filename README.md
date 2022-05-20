@@ -6,6 +6,12 @@
 * [Ibraheem Alyan - 1201180](https://www.ibraheemalyan.dev/)    
 * Noor Al-Deen Tirhi - 1190081    
 
+## Deployment
+
+view the deployed version here 👉 [p1.encs3340.unv.ibraheemalyan.dev](https://p1.encs3340.unv.ibraheemalyan.dev/)
+
+![Video](https://i.ibb.co/SRDmD79/ENCS3340-webp-14-comppressed.webp)
+
 ## Features
 
 * Selectable source
@@ -29,9 +35,7 @@
 
 Google maps distance matrix api, see the [scrap/scraper.py](scrap/scraper.py) that was used to get the data
 
-## Deployed Website [p1.encs3340.unv.ibraheemalyan.dev](https://p1.encs3340.unv.ibraheemalyan.dev/)
-
-## Local Installtion
+## Local Installation
 
 * Install **Python** >= 3.9 (must support typing syntax)
 * Install **python pip**
