@@ -8,8 +8,8 @@ class Config:
     # FIXME deepcode ignore HardcodedNonCryptoSecret: <please specify a reason of ignoring this>
     SECRET_KEY = ';kjasicl4tiwueliaulascruyalkr'  # TODO regenerate
 
-    SERVER_NAME = "p1.encs3340.unv.ibraheemalyan.dev"
-    DOMAIN_NAME = "p1.encs3340.unv.ibraheemalyan.dev"
+    SERVER_NAME = "p1.encs3340.unv.ibraheemalayan.dev"
+    DOMAIN_NAME = "p1.encs3340.unv.ibraheemalayan.dev"
 
     SSL_REDIRECT = True
 
