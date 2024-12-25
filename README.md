@@ -10,7 +10,7 @@
 
 view the deployed version here 👉 [p1.encs3340.unv.ibraheemalayan.dev](https://p1.encs3340.unv.ibraheemalayan.dev/)
 
-![Video](https://i.ibb.co/PcLNq1f/ENCS3340-webp-14-comppressed.webp)
+https://github.com/user-attachments/assets/42771553-abd4-4b84-b610-c59c0559e9d9
 
 ## Features
 
