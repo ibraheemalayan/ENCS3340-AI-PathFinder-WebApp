@@ -3,12 +3,12 @@
 
 ## Authors
 
-* [Ibraheem Alyan - 1201180](https://www.ibraheemalyan.dev/)    
+* [Ibraheem Alyan - 1201180](https://www.ibraheemalayan.dev/)    
 * Noor Al-Deen Tirhi - 1190081    
 
 ## Deployment
 
-view the deployed version here 👉 [p1.encs3340.unv.ibraheemalyan.dev](https://p1.encs3340.unv.ibraheemalyan.dev/)
+view the deployed version here 👉 [p1.encs3340.unv.ibraheemalayan.dev](https://p1.encs3340.unv.ibraheemalayan.dev/)
 
 ![Video](https://i.ibb.co/SRDmD79/ENCS3340-webp-14-comppressed.webp)
 
