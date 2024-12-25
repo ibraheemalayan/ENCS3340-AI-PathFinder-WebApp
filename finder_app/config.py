@@ -38,8 +38,8 @@ class DevelopmentConfig(Config):
 
 class RemoteDevelopmentConfig(DevelopmentConfig):
 
-    SERVER_NAME = "p1.encs3340.unv.ibraheemalyan.dev"
-    DOMAIN_NAME = "p1.encs3340.unv.ibraheemalyan.dev"
+    SERVER_NAME = "p1.encs3340.unv.ibraheemalayan.dev"
+    DOMAIN_NAME = "p1.encs3340.unv.ibraheemalayan.dev"
 
     SSL_REDIRECT = False
 
